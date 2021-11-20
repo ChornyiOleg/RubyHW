@@ -258,3 +258,52 @@ p progressionDiff.size > 1 ? nil : progressionDiff[0]
 
 
 p '--------------------------------------------------------------------------------'
+
+p 'Дан целочисленный массив. Проверить, образуют ли элементы геометрическую прогрессию. Если да, то вывести знаменатель прогрессии, если нет - вывести nil.'
+
+
+p "intArr = [3, 9, 27, 81, 243]"
+
+p "if intArr.include?(0)"
+p "Array contains 0, check is iterrupted"
+p "else"
+
+p "progressionDiff = intArr.each_cons(2).map { |el| el[1] / el[0] }.uniq"
+p "progressionDiff.size > 1 ? nil : progressionDiff[0]"
+p "end"
+
+
+p intArr = [3, 9, 27, 81, 243]
+
+  if intArr.include?(0)
+
+    p "Array contains 0, check is iterrupted"
+
+  else
+
+   p progressionDiff = intArr.each_cons(2).map { |el| el[1] / el[0] }.uniq
+
+   p progressionDiff.size > 1 ? nil : progressionDiff[0]
+
+  end
+
+
+  p 'Вариант 2 с элементом 0:'
+
+p intArr = [3, 0, 27, 81, 243]
+
+  if intArr.include?(0)
+
+    p "Array contains 0, check is iterrupted"
+
+  else
+
+   p progressionDiff = intArr.each_cons(2).map { |el| el[1] / el[0] }.uniq
+
+   p progressionDiff.size > 1 ? nil : progressionDiff[0]
+
+  end
+
+
+
+p '--------------------------------------------------------------------------------'
