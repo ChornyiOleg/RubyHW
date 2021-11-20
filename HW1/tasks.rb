@@ -229,3 +229,32 @@ p intArr.rotate(-1)
 
 
 p '--------------------------------------------------------------------------------'
+
+
+p 'Дан целочисленный массив. Проверить, образуют ли элементы арифметическую прогрессию. Если да, то вывести разность прогрессии, если нет - вывести nil.'
+
+
+p "intArray = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]"
+
+p "progressionDiff = intArray.each_cons(2).map { |el| el[1] - el[0] }.uniq"
+
+p "progressionDiff.size > 1 ? nil : progressionDiff[0]"
+
+
+p intArray = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]
+
+p progressionDiff = intArray.each_cons(2).map { |el| el[1] - el[0] }.uniq
+
+p progressionDiff.size > 1 ? nil : progressionDiff[0]
+
+
+p 'Вариант 2 с первым массивом:'
+
+p intArr = [7, 2, 9, 3, 55, 89, -45, 44, 367, -18, 23, 110]
+
+p progressionDiff = intArr.each_cons(2).map { |el| el[1] - el[0] }.uniq
+
+p progressionDiff.size > 1 ? nil : progressionDiff[0]
+
+
+p '--------------------------------------------------------------------------------'
