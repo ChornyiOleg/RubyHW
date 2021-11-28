@@ -15,23 +15,23 @@ class Pet
   name = gets.chomp().to_s
   pet = Pet.new(name, 100, 0, 100, 0)
 
-  puts "------------------------"
+  puts "---------------------------------------------------"
   puts ("    SoftsKILLER #{pet.name} was born to DIE!")
-  puts "------------------------"
+  puts "----------------------------------------------------"
   puts "\nHealth\t#{pet.health}\nHorror\t#{pet.horror}\nCalm\t#{pet.calm}\nDie\t#{pet.die}"
   puts ""
-  puts "time..."
   begin
-  puts "-------------------"
-  puts "\n|Health\t#{pet.health -= rand(20)}|\n|Horror\t#{pet.horror += rand(20)}|\n|Calm\t#{pet.calm -=rand(20)}|\n|Die\t#{pet.die += rand(20)}|"
-  puts "-------------------"
+  puts "------------------------------------------------------"
+  puts "You're forgot about #{pet.name} and his..."
+  puts "Health: #{pet.health -= rand(5)}, Horror: #{pet.horror += rand(5)}, Calm: #{pet.calm -=rand(5)}, Die: #{pet.die += rand(5)}"
+  puts "-------------------------------------------------------"
   
   puts "\nYour action with #{pet.name}:
      1 - Watch a horror movie  
-     2 - Calm down, buddy
+     2 - Calm down, buddy!
      3 - Need a psychologist
      4 - Tell him a way to die
-     Choose an action or press the Enter to be indifferent :("
+  Choose an action or press the Enter to be indifferent :("
  
   if pet.health != 0
     destiny = gets.chomp().to_s
@@ -68,13 +68,16 @@ class Pet
      when "4"
        puts "I know the best way to die for you!"
        puts "Tell me, tell me, please!!!"
+       puts "---------------------------------------------------------------------------" 
+       puts "Choose an action using 1, 2, 3, 4 or press the Enter to be indifferent :("
+
        death = gets.chomp().to_s
        case death
 
          when "1"
           puts "Let\'s kill, Beatrice!"
           puts "Ok, call me Bill!"
-            pet.health += rand(25)
+            pet.health -= rand(25)
             pet.horror += rand(25)
             pet.calm -= rand(25)
               if pet.die > 0
@@ -85,7 +88,7 @@ class Pet
          when "2"
           puts "Let\'s swim, Jack!"
           puts "Ok, Rose, call me Titanic!"
-            pet.health += rand(25)
+            pet.health -= rand(25)
             pet.horror += rand(25)
             pet.calm -= rand(25)
               if pet.die > 0
@@ -96,7 +99,7 @@ class Pet
          when "3"
            puts "Let\'s hang on, buddy!"
            puts "I was just about to hang my body!"
-             pet.health += rand(25)
+             pet.health -= rand(25)
              pet.horror += rand(25)
              pet.calm -= rand(25)
                if pet.die > 0
@@ -107,7 +110,7 @@ class Pet
          when "4"
            puts "Let\'s freeze, Sub-Zero!"
            puts "Ok, call me icecle"
-             pet.health += rand(25)
+             pet.health -= rand(25)
              pet.horror += rand(25)
              pet.calm -= rand(25)
                if pet.die > 0
@@ -143,7 +146,7 @@ class Pet
   end
  end
   
-   puts "\nHEALTH\t#{pet.health}\nHORROR\t#{pet.horror}\nCALM\t#{pet.calm}\nDEATH\t#{pet.die}"
- 
+   puts "\nHEALTH\t#{pet.health}\nHORROR\t#{pet.horror}\nCALM\t#{pet.calm}\nDIE\t#{pet.die}"
+
   end  while pet.health > 0 && pet.horror < 100 && pet.calm > 0 && pet.die < 100
 end
