@@ -139,7 +139,7 @@ class Pet
     puts "\n\n#{pet.name} didn't worry about death!!! He died happy! He will be reborn"
   elsif pet.die >= 100
     pet.die = 100
-    puts "\n\n#{pet.name} chose the best way to die. He will be reborn "
+    puts "\n\n#{pet.name} chose the best way to die. He will be reborn"
   end
  end
   
