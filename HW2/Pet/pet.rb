@@ -23,7 +23,7 @@ class Pet
   begin
   puts "------------------------------------------------------"
   puts "You're forgot about #{pet.name} and his..."
-  puts "Health: #{if pet.health > 6 pet.health -= rand(5) end}, Horror: #{pet.horror += rand(5)}, Calm: #{pet.calm -=rand(5)}, Die: #{pet.die += rand(5)}"
+  puts "Health: #{pet.health -= rand(5)}, Horror: #{pet.horror += rand(5)}, Calm: #{pet.calm -=rand(5)}, Die: #{pet.die += rand(5)}"
   puts "-------------------------------------------------------"
   
   puts "\nYour action with #{pet.name}:
