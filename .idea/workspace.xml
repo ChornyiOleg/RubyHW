@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c958646-dbea-4226-95d8-e9be22277a7c" name="Changes" comment="42 Gem Update">
-      <change afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two-0.0.0.gem" afterDir="false" />
+    <list default="true" id="6c958646-dbea-4226-95d8-e9be22277a7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,7 @@
       <workItem from="1638690993778" duration="329000" />
       <workItem from="1638692352291" duration="317000" />
       <workItem from="1638695996793" duration="542000" />
-      <workItem from="1638696626898" duration="10363000" />
+      <workItem from="1638696626898" duration="11527000" />
     </task>
     <task id="LOCAL-00001" summary="Modify SoftsKILLER">
       <created>1638553535890</created>
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638704534993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="42 Gem build">
+      <created>1638708488774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638708488774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +197,8 @@
     </ignored-roots>
     <MESSAGE value="Modify SoftsKILLER" />
     <MESSAGE value="42 Gem Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="42 Gem Update" />
+    <MESSAGE value="42 Gem build" />
+    <option name="LAST_COMMIT_MESSAGE" value="42 Gem build" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1638609985329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
