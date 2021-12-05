@@ -7,6 +7,5 @@ Gem::Specification.new do |spec|
   spec.description = 'Extended class Integer with 42 gem'
   spec.homepage = 'https://github.com/ChornyiOleg/RubyHW/tree/master/HW3/forty_two'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
   spec.files = ['lib/forty_two.rb']
 end
