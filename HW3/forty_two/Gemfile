@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'forty_two', require: false
+gem "forty_two", require: true
 
 gemspec
 

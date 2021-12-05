@@ -4,8 +4,8 @@ require_relative "lib/forty_two/version"
 
 Gem::Specification.new do |spec|
   spec.name = "forty_two"
-  spec.version = FortyTwo::VERSION
-  spec.authors = ["ChornyiOleg"]
+  spec.version = "0.1.0"
+  spec.authors = ["Chornyi Oleg"]
   spec.email = ["olegchornyi82@gmail.com"]
   spec.summary = "Return true if integer equals 42"
   spec.description = "Extended class Integer with 42 gem"

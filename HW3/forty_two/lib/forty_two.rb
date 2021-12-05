@@ -2,12 +2,8 @@
 
 require_relative "forty_two/version"
 
-module FortyTwo
+class Integer
   def forty_two?
     self == 42
   end
-end
-
-class Integer
-  include FortyTwo
 end
