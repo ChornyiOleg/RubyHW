@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c958646-dbea-4226-95d8-e9be22277a7c" name="Changes" comment="42 Gem Update">
-      <change afterPath="$PROJECT_DIR$/forty_two/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/forty_two.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/lib/forty_two.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/lib/forty_two/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/test/forty_two_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forty_two/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/forty_two/fourty_two.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +142,7 @@
       <workItem from="1638690993778" duration="329000" />
       <workItem from="1638692352291" duration="317000" />
       <workItem from="1638695996793" duration="542000" />
-      <workItem from="1638696626898" duration="9243000" />
+      <workItem from="1638696626898" duration="10015000" />
     </task>
     <task id="LOCAL-00001" summary="Modify SoftsKILLER">
       <created>1638553535890</created>

@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.email = ['olegchornyi82@gmail.com']
   spec.summary = 'Return true if integer equals 42'
   spec.description = 'Extended class Integer with 42 gem'
-  spec.homepage = 'https://github.com/ChornyiOleg/RubyHW/tree/master/HW3/forty_two'
+  spec.homepage = 'https://github.com/ChornyiOleg/RubyHW/tree/master/HW3/forty_two/'
   spec.license = 'MIT'
   spec.files = ['lib/forty_two.rb']
 end
