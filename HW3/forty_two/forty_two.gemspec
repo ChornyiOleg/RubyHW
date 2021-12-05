@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'forty_two'
-  spec.version = '0.0.0'
+  spec.version = '0.1.0'
   spec.authors = ['Chornyi Oleg']
   spec.email = ['olegchornyi82@gmail.com']
   spec.summary = 'Return true if integer equals 42'

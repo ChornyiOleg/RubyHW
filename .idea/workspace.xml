@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c958646-dbea-4226-95d8-e9be22277a7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/forty_two/forty_two-0.0.0.gem" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two-0.1.0.gem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +143,7 @@
       <workItem from="1638690993778" duration="329000" />
       <workItem from="1638692352291" duration="317000" />
       <workItem from="1638695996793" duration="542000" />
-      <workItem from="1638696626898" duration="11527000" />
+      <workItem from="1638696626898" duration="13521000" />
     </task>
     <task id="LOCAL-00001" summary="Modify SoftsKILLER">
       <created>1638553535890</created>
