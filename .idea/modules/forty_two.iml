@@ -7,8 +7,21 @@
     <content url="file://$MODULE_DIR$/../../HW3/forty_two" />
     <orderEntry type="jdk" jdkName="RVM: ruby-3.0.0" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="forty_two (vbundled(42)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/forty_two-42/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/forty_two-42/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.3, RVM: ruby-3.0.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="forty_two (v42, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.0, RVM: ruby-3.0.0) [gem]" level="application" />
   </component>
   <component name="RubyModuleProperties">
