@@ -138,9 +138,4 @@ class Pet
 
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
-  end
-
-
-
-
-
+end

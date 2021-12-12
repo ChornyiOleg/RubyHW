@@ -11,4 +11,7 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
   spec.files = ['lib/forty_two.rb']
+  spec.metadata = {
+    'rubygems_mfa_required' => 'true'
+  }
 end
