@@ -1,31 +1,26 @@
-require 'create_html'
+# require 'create_html'
 
 class Pet
   attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result
+  movies = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
 
-  MOVIES = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill', 'The Ring', 'The Thing', 'It'].freeze
-
-  def initialize(name, health, horror, calm, die, emotion, result)
+  def initialize(name, health, horror, calm, die)
     @name = name
     @health = health
     @horror = horror
     @calm = calm
     @die = die
-    @emotion = emotion
-    @result = result
   end
 
   puts 'What will be a SoftsKILLER name:'
-      name = gets.chomp
-      pet = Pet.new(name, 100, 10, 100, 10, 0, 0)
+  name = gets.chomp
+  pet = Pet.new(name, 100, 10, 100, 10)
 
-      puts '**************************************************************'
-      puts "|         SoftsKILLER #{pet.name} was born to DIE!                |"
-      puts '**************************************************************'
-      puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}, Result #{pet.result} "
-      puts ''
-      html
-    end
+  puts '**************************************************************'
+  puts "|         SoftsKILLER #{pet.name} was born to DIE!                |"
+  puts '**************************************************************'
+  puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}"
+  puts ''
 
       loop do
         puts '------------------------------------------------------'
@@ -44,7 +39,7 @@ class Pet
             pet.calm -= rand(25) if pet.calm >= 26
             pet.die += rand(25) if pet.die <= 74
             puts "#{pet.name} enjoys the movie!#{pet.emotion}"
-            html
+            #html
 
           when '2'
             puts "Try to calm #{pet.name}"
@@ -53,7 +48,7 @@ class Pet
             pet.calm += rand(10) if pet.calm < 89
             pet.die += rand(25) if pet.calm < 74
             puts "#{pet.name} is slightly calmed down!#{pet.emotion} But... I'm not sure"
-            html
+            #html
 
           when '3'
             puts 'We should go to the doctor!'
@@ -63,7 +58,7 @@ class Pet
             pet.calm -= rand(10) if pet.calm.positive? && pet.calm < 89
             pet.die += rand(20) if pet.die.positive? && pet.die < 79
             puts "#{pet.name} he hates state doctors who bought a degree for a pig, but he is thinking about Rorschach test #{pet.emotion}"
-            html
+            #html
 
           when '4'
             pet.emotion = 'U+1F608'
@@ -87,7 +82,7 @@ class Pet
               pet.calm -= rand(25)
               pet.die = 100 if pet.die.positive?
               puts "Bill killed himself #{pet.result}"
-              html
+              #html
 
             when '2'
               puts 'Let\'s swim, Jack!'
@@ -98,7 +93,7 @@ class Pet
               pet.calm -= rand(25)
               pet.die = 100 if pet.die.positive?
               puts "Jack drowned #{pet.result}"
-              html
+              #html
 
             when '3'
               puts 'Let\'s hang on, buddy!'
@@ -109,7 +104,7 @@ class Pet
               pet.calm -= rand(25)
               pet.die = 100 if pet.die.positive?
               puts "Buddy hung himself #{pet.result}"
-              html
+              #html
 
             when '4'
               puts 'Let\'s freeze, Sub-Zero!'
@@ -120,7 +115,7 @@ class Pet
               pet.calm -= rand(25)
               pet.die = 100 if pet.die.positive?
               puts "Sub-zero froze to death #{pet.result}"
-              html
+              #html
             else
               puts 'I\'m tired of waiting for you to tell me the best way to die... Farewell!'
               pet.result = 'U+1F480'
@@ -129,7 +124,7 @@ class Pet
               pet.calm -= rand(25)
               pet.die = 100 if pet.die.positive?
               puts "#{pet.name} died from waiting to die #{pet.result}"
-              html
+              #html
             end
           when ''
             pet.emotion = 'U+1F631'
@@ -138,9 +133,9 @@ class Pet
             pet.horror += rand(25) if pet.horror <= 74
             pet.calm -= rand(25) if pet.calm >= 26
             pet.die += rand(25) if pet.die <= 74
-            html
+            #html
           else
-            pet.emotion = 'U+1F631'
+            pet.emotion = 'U+1F631 😀'
             puts "You entered #{destiny}, what is it? #{pet.emotion}"
             puts 'Try again!'
             next
@@ -169,26 +164,4 @@ class Pet
 
         break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
       end
-
-
-    private
-
-      def html(filename = 'index.html')
-        content = "
-       <div style='margin-left: 5em; font-size: xx-large'>
-        <p>Health: #{pet.health}</p>
-        <p>Horror: #{pet.horror}</p>
-        <p>Calm: #{pet.calm}</p>
-        <p>Die: #{pet.die}</p>
-       </div>
-
-       <div style='margin-left: 3em; font-size: 3.2em'>
-        <p>#{pet.result}</p>
-       </div>
-       <div style='margin-left: 2em; font-size: 5em'>
-        <p>#{pet.emotion}</p>
-       </div>"
-
-        CreateHtml.new.create_html(content, true, filename)
-      end
-
+end

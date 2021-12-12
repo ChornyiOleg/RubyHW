@@ -8,21 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="CreateHtmlGem">
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/create_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/create_html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/tasks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/tasks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/Pet/pet.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/Pet/pet.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/task1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/task1.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/forty_two.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3/forty_two/lib/forty_two.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/forty_two/lib/forty_two.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/create_html.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/create_html.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib/create_html.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib/create_html.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/pet.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/Pet/pet.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +132,7 @@
       <workItem from="1639171034259" duration="1387000" />
       <workItem from="1639173265798" duration="5067000" />
       <workItem from="1639179828259" duration="2552000" />
-      <workItem from="1639216333408" duration="15870000" />
+      <workItem from="1639216333408" duration="21859000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -179,8 +175,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="CreateHtmlGem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639325190814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639329036750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1638740082133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639324581067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib" MODULE_NAME="create_html" />
+    <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639328702390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib" MODULE_NAME="create_html" />
   </component>
 </project>

@@ -14,6 +14,7 @@ class CreateHtml
     f = File.new("#{Dir.pwd}/#{file_name}", "w+")
     f.puts "<!DOCTYPE html>"
     f.puts "  <html lang='en'>"
+    f.puts "  <head>"
     f.puts "    <meta charset='utf-8'>"
     f.puts "    <meta name='viewport'
          content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>"
@@ -39,6 +40,6 @@ class CreateHtml
   def open_in_browser(file = 'index.html')
     system("xdg-open #{Dir.pwd}/#{file}")
   end
-end
 
+end
 CreateHtml.new.create_html('markup', true)
