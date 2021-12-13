@@ -8,21 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="CreateHtmlGem">
-      <change afterPath="$PROJECT_DIR$/CreateHtml/lib/create_html.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_html/lib/create_html.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/CreateHtml/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/create_html.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/CreateHtml/create_html.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/lib/create_html.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/Pet/pet.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateHtml/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/create_html/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateHtml/create_html.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/create_html/create_html.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateHtml/lib/create_html.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/pet.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/pet.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,16 +61,17 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HW3HtmlPet" />
+      <recent name="$PROJECT_DIR$/create_html" />
       <recent name="$PROJECT_DIR$/CreateHtml" />
       <recent name="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html" />
       <recent name="$PROJECT_DIR$/HW3/forty_two/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.create_html">
+  <component name="RunManager" selected="Ruby.pet">
     <configuration name="create_html" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RubyHW" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/CreateHtml/lib" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/create_html/lib" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -90,7 +83,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/CreateHtml/lib/create_html.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/create_html/lib/create_html.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -116,7 +109,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.create_html" />
-        <item itemvalue="Ruby.pet" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +130,8 @@
       <workItem from="1639171034259" duration="1387000" />
       <workItem from="1639173265798" duration="5067000" />
       <workItem from="1639179828259" duration="2552000" />
-      <workItem from="1639216333408" duration="33973000" />
+      <workItem from="1639216333408" duration="37930000" />
+      <workItem from="1639366794621" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -154,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638820253745</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CreateHtmlGem">
+      <created>1639363067708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639363067708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +176,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/HW3/forty_two" />
+      <path value="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/create_html" />
     </ignored-roots>
     <MESSAGE value="CreateHtmlGem" />
     <option name="LAST_COMMIT_MESSAGE" value="CreateHtmlGem" />
@@ -183,6 +184,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639354615525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1638740082133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639362681132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CreateHtml/lib" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639366865714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_html/lib" MODULE_NAME="RubyHW" />
   </component>
 </project>

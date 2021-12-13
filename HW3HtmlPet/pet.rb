@@ -1,4 +1,4 @@
-require 'create_html'
+#require 'create_html'
 
 class Pet
   attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result
@@ -167,19 +167,4 @@ class Pet
 
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
-end
-
-def html
-  content = File.read("#{Dir.pwd}/template.html")
-
-  content.gsub!('{{name}}', @pet.name.to_s)
-  content.gsub!('{{health}}', @pet.health.to_s)
-  content.gsub!('{{horror}}', @pet.horror.to_s)
-  content.gsub!('{{calm}}', @pet.calm.to_s)
-  content.gsub!('{{die}}', @pet.die.to_s)
-  content.gsub!('{{result}}', @pet.result.uniq.join('__').to_s)
-  content.gsub!('__', '<br>')
-  content.gsub!('{{emotion}}', "#{@pet.emotion}")
-
-  create_html(content, true, 'pet.html')
 end
