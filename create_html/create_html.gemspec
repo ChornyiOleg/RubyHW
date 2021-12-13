@@ -10,5 +10,4 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/ChornyiOleg/RubyHW/tree/master/create_html'
   spec.license = 'MIT'
   spec.files = ['lib/create_html.rb']
-
 end
