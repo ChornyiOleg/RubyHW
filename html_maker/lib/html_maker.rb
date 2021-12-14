@@ -1,35 +1,40 @@
-require 'nokogiri'
+require 'sanitize'
 
-class Html
-  def to_html(content, bypass_html = true, my_page = 'index.html')
-    @status = content.gsub!(/^[a-zA-Z ]*$/, '') if bypass_html == false
+def makeHTML(health, horror, calm, die, info, bypass_html = true)
+  file = File.open('index.html', 'w')
 
-    my_page = File.new('index.html', 'w+')
-    my_page.puts "<!DOCTYPE html>"
-    my_page.puts "  <head>"
-    my_page.puts "    <meta charset='utf-8'>"
-    my_page.puts "    <title>SoftsKILLER</title>"
-    my_page.puts "    <script>"
-    my_page.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
-    my_page.puts "    </script>"
-    my_page.puts "  </head>"
-    my_page.puts "  <body>"
-    my_page.puts "  <p>Pet Content</p>"
-    my_page.puts "    #{@status}"
-    my_page.puts "  </body>"
-    my_page.puts "</html>"
-    my_page.close
+  info = info.gsub!(/[<>]/, '') if bypass_html == false
+
+  file.puts("<!DOCTYPE html>
+    <head>
+        <title> SoftsKILLER </title>
+    </head>
+    <body>
+        <h1>Pet's DIE/h1>
+        <hr/>")
+
+  if die >= 99
+    file.puts('<h1>💀 I\'m died</h1>')
+  elsif 40 < die < 60
+    file.puts('<h1>😐 I will die</h1>')
+  elsif 10 < die < 39
+    file.puts('<h1>😀 I want to die</h1>')
+  else
+
   end
 
-  def edit_html(content, my_page = 'index.html')
-    File.open(my_page) { |my_page| Nokogiri::HTML(my_page) }
-    @status << content
-    my_page = File.open(my_page, 'w+')
-    my_page.puts @status
-    my_page.close
-  end
+  file.puts("<h3>")
+  file.puts(info)
+  file.write("
+      </h3>
+    </body>
+    </html>
+      ")
 
-  def open_html(my_page = 'index.html')
-    system("xdg-open #{my_page}")
-  end
+  Sanitize.document(file,
+                    :allow_doctype => true,
+                    :elements => ['html']
+  )
+
+  file.close
 end

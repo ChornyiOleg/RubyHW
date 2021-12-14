@@ -160,21 +160,11 @@ class Pet
     end
 
     puts "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
-
+    health = pet.health
+    horror = pet.horror
+    calm = pet.calm
+    die = pet.die
+    makeHTML(health, horror, calm, die)
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
-
-
-
-  def html(filename = 'index.html')
-    content = "
-    <div style='margin-left: 5em; font-size: xx-large'>
-       <div style='margin-left: 3em; font-size: 3.2em'>
-        <p>#{@pet.result}</p>
-       </div>
-       <div style='margin-left: 2em; font-size: 5em'>
-        <p>#{@pet.emotion}</p>
-       </div>"
-
-   end
 end
