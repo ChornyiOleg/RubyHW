@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'html_maker', '>=0.1.2'
-gem 'nokogiri'
+gem 'html_maker'
+gem 'nokogiri', '~> 1.12', '>= 1.12.5'
