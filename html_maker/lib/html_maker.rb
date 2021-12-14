@@ -20,7 +20,6 @@ class Html
     html_file.close
 
   end
-
   def edit_html(content, html_file = 'index.html')
     File.open(html_file) { |html_file| Nokogiri::HTML(html_file) }
     @paste << content

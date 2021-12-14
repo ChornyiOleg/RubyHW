@@ -14,7 +14,7 @@ class Pet
     @emotion = emotion
     @result = result
   end
-
+  html
   puts 'What will be a SoftsKILLER name:'
   name = gets.chomp
   pet = Pet.new(name, 100, 10, 100, 10, '', 0)
@@ -157,17 +157,16 @@ class Pet
         puts "\n\n#{pet.name} chose the best way to die. He will be reborn #{pet.emotion}"
       end
     end
-
-    puts "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
-
+    info = "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
+    puts info
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
-end
-Html.new.open_html
+
+  Html.new.open_html
 
 def html(html_file = 'index.html')
-  content = "
-    <p>Animal type: #{@animal_type}</p>
-    <p>Status: #{@animal.status}</p>"
+ content = "
+   <p>HEALTH: #{pet.health}</p>
+    <p>HORROR: #{pet.horror}</p>"
   Html.new.to_html(content, true, html_file)
 end
