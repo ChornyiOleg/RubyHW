@@ -2,7 +2,7 @@ require 'nokogiri'
 
 class Html
   def to_html(content, bypass_html = true, my_page = 'index.html')
-    @status = content.gsub!(/[<>]/, '') if bypass_html == false
+    @status = content.gsub!(/^[a-zA-Z ]*$/, '') if bypass_html == false
 
     my_page = File.new('index.html', 'w+')
     my_page.puts "<!DOCTYPE html>"
