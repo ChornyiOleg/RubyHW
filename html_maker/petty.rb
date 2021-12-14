@@ -24,9 +24,7 @@ class Pet
   puts '**************************************************************'
   puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}"
   puts ''
-
-
-
+  Html.new.open_html
   loop do
     puts '------------------------------------------------------'
     puts "                      \nYour action with #{pet.name}:
@@ -34,8 +32,6 @@ class Pet
      \nChoose an action or press the Enter to be indifferent 🤨"
     if pet.health.positive?
       destiny = gets.chomp
-
-      MakeHtml.new.open_in_browser
       case destiny
 
       when '1'
@@ -172,9 +168,9 @@ class Pet
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
 
-  def html(filename = 'index.html')
+  def html(html_file = 'index.html')
     content = "
-       <div style='margin-left: 5em; font-size: xx-large'>
+    <div style='margin-left: 5em; font-size: xx-large'>
         <p>Health: #{@pet.health}</p>
         <p>Horror: #{@pet.horror}</p>
         <p>Calm: #{@pet.calm}</p>
@@ -188,7 +184,6 @@ class Pet
         <p>#{@pet.emotion}</p>
        </div>"
 
-    MakeHtml.new.make_html(content, true, filename)
+    Html.new.to_html(content, true, html_file)
   end
 end
-

@@ -1,38 +1,35 @@
 require 'nokogiri'
 
-class MakeHtml
-  def make_html(content, bypass_html = true, file_name = 'index.html')
-    markup = gets.chomp
-    markup = content.gsub!(/[<>]/, '') if bypass_html
+class Html
+  def to_html(content, bypass_html = true, html_file = 'index.html')
+    @paste = content.gsub!(/^[а-яА-Я ]*$/, '') if bypass_html
 
-    f = File.new("#{Dir.pwd}/#{file_name}", "w+")
-    f.puts "<!DOCTYPE html>"
-    f.puts "  <head>"
-    f.puts "    <meta charset='utf-8'>"
-    f.puts "    <title>SoftsKILLER was born to DIE</title>"
-    f.puts "  </head>"
-    f.puts "  <body>"
-    f.puts "    <script>"
-    f.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
-    f.puts "    </script>"
-    f.puts "    #{markup}"
-    f.puts "  </body>"
-    f.puts "</html>"
-    f.close
+    html_file = File.new('index.html', 'w+')
+    html_file.puts "<!DOCTYPE html>"
+    html_file.puts "  <head>"
+    html_file.puts "    <meta charset='utf-8'>"
+    html_file.puts "    <title>odoodo</title>"
+    html_file.puts "    <script>"
+    html_file.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
+    html_file.puts "    </script>"
+    html_file.puts "  </head>"
+    html_file.puts "  <body>"
+    html_file.puts "    #{@paste}"
+    html_file.puts "  </body>"
+    html_file.puts "</html>"
+    html_file.close
+
   end
 
-  def update_html(content, file_name = 'index.html')
-    doc = File.open(file_name) { |f| Nokogiri::HTML(f) }
-    doc.at('body') << content
-
-    file = File.open(file_name, 'w+')
-    file.puts doc
-    file.close
+  def edit_html(content, html_file = 'index.html')
+    File.open(html_file) { |html_file| Nokogiri::HTML(html_file) }
+    @paste << content
+    html_file = File.open(html_file, 'w+')
+    html_file.puts @paste
+    html_file.close
   end
 
-  def open_in_browser(file = 'index.html')
-    system("xdg-open #{Dir.pwd}/#{file}")
+  def open_html(html_file = 'index.html')
+    system("xdg-open #{html_file}")
   end
 end
-
-MakeHtml.new.make_html("markup", true)

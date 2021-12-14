@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="html_maker">
-      <change afterPath="$PROJECT_DIR$/html_maker/petty.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_maker/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_maker/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/Gemfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html_maker/html_maker.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/html_maker.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/lib/html_maker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/lib/html_maker.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/petty.rb" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/petty.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HtmlGem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,13 +69,20 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html_maker" />
-      <recent name="$PROJECT_DIR$/create_html" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/create_html" />
       <recent name="$PROJECT_DIR$/HW3HtmlPet" />
       <recent name="$PROJECT_DIR$/CreateHtml" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.html_maker">
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/html_maker" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.petty">
     <configuration name="IRB: RubyHW" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="RubyHW" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -141,8 +148,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.html_maker" />
         <item itemvalue="Ruby.petty" />
+        <item itemvalue="Ruby.html_maker" />
         <item itemvalue="Ruby Console.IRB: RubyHW" />
       </list>
     </recent_temporary>
@@ -172,6 +179,7 @@
       <workItem from="1639438651154" duration="1907000" />
       <workItem from="1639441462449" duration="11062000" />
       <workItem from="1639454261002" duration="207000" />
+      <workItem from="1639457899689" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -236,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639447910696</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="html_maker">
+      <created>1639458057479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639458057479</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +282,7 @@
     <SUITE FILE_PATH="coverage/RubyHW@pet__1_.rcov" NAME="pet (1) Coverage Results" MODIFIED="1639367133680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@petty__2_.rcov" NAME="petty (2) Coverage Results" MODIFIED="1639449143347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639354615525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@petty.rcov" NAME="petty Coverage Results" MODIFIED="1639449497489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="html_maker" />
+    <SUITE FILE_PATH="coverage/RubyHW@petty.rcov" NAME="petty Coverage Results" MODIFIED="1639460683591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@petty__1_.rcov" NAME="petty (1) Coverage Results" MODIFIED="1639444983335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639440101742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_html/lib" MODULE_NAME="CreateHtml" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1639446165674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
