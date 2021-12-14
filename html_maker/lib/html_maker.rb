@@ -9,7 +9,7 @@ class MakeHtml
     f.puts "<!DOCTYPE html>"
     f.puts "  <head>"
     f.puts "    <meta charset='utf-8'>"
-    f.puts "    <title>My Tamago</title>"
+    f.puts "    <title>SoftsKILLER was born to DIE</title>"
     f.puts "    <script>"
     f.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
     f.puts "    </script>"
