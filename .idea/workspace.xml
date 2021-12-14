@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="html_maker">
+      <change afterPath="$PROJECT_DIR$/html_maker/.rubocop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_maker/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_maker/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_maker/petty.rb" beforeDir="false" afterPath="$PROJECT_DIR$/petty.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/.idea/html_maker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/.idea/html_maker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/html_maker-0.1.2.gem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/html_maker.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/html_maker.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_maker/lib/html_maker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/html_maker/lib/html_maker.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petty.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/petty.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/RubyHW/html_maker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,17 +77,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW3HtmlPet" />
+      <recent name="$PROJECT_DIR$/../" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html_maker" />
       <recent name="$PROJECT_DIR$/create_html" />
-      <recent name="$PROJECT_DIR$/HW3HtmlPet" />
-      <recent name="$PROJECT_DIR$/CreateHtml" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
-        <option value="$PROJECT_DIR$/html_maker" />
+        <option value="$PROJECT_DIR$/../html_maker" />
       </list>
     </option>
   </component>
@@ -104,7 +115,7 @@
     <configuration name="html_maker" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="html_maker" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/html_maker/lib" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$USER_HOME$/html_maker/lib" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -116,7 +127,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/html_maker/lib/html_maker.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/html_maker/lib/html_maker.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -135,7 +146,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/petty.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/HW3HtmlPet/petty.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -178,7 +189,8 @@
       <workItem from="1639441462449" duration="11062000" />
       <workItem from="1639454261002" duration="207000" />
       <workItem from="1639457899689" duration="2811000" />
-      <workItem from="1639460841233" duration="2114000" />
+      <workItem from="1639460841233" duration="3289000" />
+      <workItem from="1639468152531" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -264,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639462691918</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="html_maker">
+      <created>1639463207760</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639463207760</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +314,7 @@
     <SUITE FILE_PATH="coverage/RubyHW@pet__1_.rcov" NAME="pet (1) Coverage Results" MODIFIED="1639367133680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@petty__2_.rcov" NAME="petty (2) Coverage Results" MODIFIED="1639449143347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639354615525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet/Pet" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@petty.rcov" NAME="petty Coverage Results" MODIFIED="1639463051704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@petty.rcov" NAME="petty Coverage Results" MODIFIED="1639468626326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@petty__1_.rcov" NAME="petty (1) Coverage Results" MODIFIED="1639444983335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639440101742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_html/lib" MODULE_NAME="CreateHtml" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1639446165674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />

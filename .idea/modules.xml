@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RubyHW.iml" filepath="$PROJECT_DIR$/.idea/RubyHW.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forty_two.iml" filepath="$PROJECT_DIR$/.idea/modules/forty_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html_maker.iml" filepath="$PROJECT_DIR$/.idea/modules/html_maker.iml" />
     </modules>
   </component>
 </project>

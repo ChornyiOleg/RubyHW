@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/html_maker.rb"]
   s.homepage    = 'https://github.com/ChornyiOleg/RubyHW/tree/master/html_maker'
   s.license     = 'MIT'
+  s.metadata = {
+  'rubygems_mfa_required' => 'true'
+}
 end

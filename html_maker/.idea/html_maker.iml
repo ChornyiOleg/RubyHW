@@ -9,10 +9,183 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.0" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.4, RVM: ruby-2.7.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.4.0, RVM: ruby-2.7.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.10.10, RVM: ruby-2.7.1) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="ast (vbundled(2.4.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/ast-2.4.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/ast-2.4.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parallel (vbundled(1.21.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parallel-1.21.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parallel-1.21.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="parser (vbundled(3.0.3.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parser-3.0.3.2/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parser-3.0.3.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parser-3.0.3.2/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parser-3.0.3.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/parser-3.0.3.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rainbow (vbundled(3.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rainbow-3.0.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rainbow-3.0.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rainbow-3.0.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rainbow-3.0.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rainbow-3.0.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="regexp_parser (vbundled(2.2.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/regexp_parser-2.2.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/regexp_parser-2.2.0/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/regexp_parser-2.2.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/regexp_parser-2.2.0/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/regexp_parser-2.2.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rexml (vbundled(3.2.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rexml-3.2.5/doc" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rexml-3.2.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rexml-3.2.5/doc" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rexml-3.2.5/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rexml-3.2.5/doc" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop (vbundled(1.23.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/exe" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/assets" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/config" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/exe" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/assets" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/config" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/exe" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-1.23.0/assets" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubocop-ast (vbundled(1.14.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-ast-1.14.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rubocop-ast-1.14.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-progressbar (vbundled(1.11.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/ruby-progressbar-1.11.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/ruby-progressbar-1.11.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicode-display_width (vbundled(2.1.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/unicode-display_width-2.1.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/unicode-display_width-2.1.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/unicode-display_width-2.1.0/data" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.3, RVM: ruby-3.0.0) [gem]" level="application" />
   </component>
 </module>

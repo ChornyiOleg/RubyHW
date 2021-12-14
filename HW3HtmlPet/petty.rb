@@ -2,6 +2,7 @@ require 'html_maker'
 
 class Pet
   attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result
+
   movies = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
 
   def initialize(name, health, horror, calm, die, emotion, result)
@@ -12,7 +13,6 @@ class Pet
     @die = die
     @emotion = emotion
     @result = result
-
   end
 
   puts 'What will be a SoftsKILLER name:'
