@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Oleg Chornyi"]
   s.email       = 'olegchornyi82@gmail.com'
   s.files       = ["lib/html_maker.rb"]
-  s.homepage    = 'https://github.com/ChornyiOleg/RubyHW/tree/master/html_maker.git'
+  s.homepage    = 'https://github.com/ChornyiOleg/RubyHW/tree/master/html_maker'
   s.license     = 'MIT'
 end
