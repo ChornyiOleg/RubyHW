@@ -23,8 +23,6 @@ class Pet
   puts "|         SoftsKILLER #{pet.name} was born to DIE💜!                |"
   puts '**************************************************************'
   puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}"
-
-  MakeHtml.new.open_in_browser
   puts ''
 
   loop do
@@ -32,6 +30,7 @@ class Pet
     puts "                      \nYour action with #{pet.name}:
      1 - Watch a horror movie, 2 - Calm down, buddy! 3 - Need a psychologist 4 - Tell him a way to die
      \nChoose an action or press the Enter to be indifferent 🤨"
+    MakeHtml.new.open_in_browser
     if pet.health.positive?
       destiny = gets.chomp
       case destiny
