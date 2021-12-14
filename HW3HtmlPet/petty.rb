@@ -23,8 +23,10 @@ class Pet
   puts "|         SoftsKILLER #{pet.name} was born to DIE💜!                |"
   puts '**************************************************************'
   puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}"
+
+  MakeHtml.new.open_in_browser
   puts ''
-  Html.new.open_html
+
   loop do
     puts '------------------------------------------------------'
     puts "                      \nYour action with #{pet.name}:
@@ -168,7 +170,9 @@ class Pet
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
 
-  def html(html_file = 'index.html')
+  private
+
+  def html(filename = 'index.html')
     content = "
     <div style='margin-left: 5em; font-size: xx-large'>
         <p>Health: #{@pet.health}</p>
@@ -184,6 +188,6 @@ class Pet
         <p>#{@pet.emotion}</p>
        </div>"
 
-    Html.new.to_html(content, true, html_file)
+    MakeHtml.new.make_html(content, true, filename)
   end
 end
