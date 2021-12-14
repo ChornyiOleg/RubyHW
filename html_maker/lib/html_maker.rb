@@ -1,39 +1,35 @@
 require 'nokogiri'
 
-class MakeHtml
-  def make_html(content, bypass_html, file_name = 'index.html')
-    markup = content.gsub!(/[<>]/, '') if bypass_html == false
-    markup = content unless bypass_html == false
+class Html
+  def to_html(content, bypass_html = true, my_page = 'index.html')
+    @status = content.gsub!(/^[a-zA-Z ]*$/, '') if bypass_html
 
-    f = File.new("#{Dir.pwd}/#{file_name}", "w+")
-    f.puts "<!DOCTYPE html>"
-    f.puts "  <head>"
-    f.puts "    <meta charset='utf-8'>"
-    f.puts "    <title>SoftsKILLER was born to DIE</title>"
-    f.puts "    <script>"
-    f.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
-    f.puts "    </script>"
-    f.puts "  </head>"
-    f.puts "  <body>"
-    f.puts "    <script>"
-    f.puts "      setInterval(()=>{ window.location.reload() }, 2500)"
-    f.puts "    </script>"
-    f.puts "    <p>#{markup}</p>"
-    f.puts "  </body>"
-    f.puts "</html>"
-    f.close
+    my_page = File.new('index.html', 'w+')
+    my_page.puts "<!DOCTYPE html>"
+    my_page.puts "  <head>"
+    my_page.puts "    <meta charset='utf-8'>"
+    my_page.puts "    <title>SoftsKILLER</title>"
+    my_page.puts "    <script>"
+    my_page.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
+    my_page.puts "    </script>"
+    my_page.puts "  </head>"
+    my_page.puts "  <body>"
+    my_page.puts "  <p>Pet Content</p>"
+    my_page.puts "    #{@status}"
+    my_page.puts "  </body>"
+    my_page.puts "</html>"
+    my_page.close
   end
 
-  def update_html(content, file_name = 'index.html')
-    doc = File.open(file_name) { |f| Nokogiri::HTML(f) }
-    doc.at('body') << content
-
-    file = File.open(file_name, 'w+')
-    file.puts doc
-    file.close
+  def edit_html(content, my_page = 'index.html')
+    File.open(my_page) { |my_page| Nokogiri::HTML(my_page) }
+    @status << content
+    my_page = File.open(my_page, 'w+')
+    my_page.puts @status
+    my_page.close
   end
 
-  def open_in_browser(file = 'index.html')
-    system("xdg-open #{Dir.pwd}/#{file}")
+  def open_html(my_page = 'index.html')
+    system("xdg-open #{my_page}")
   end
 end
