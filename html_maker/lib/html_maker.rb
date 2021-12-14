@@ -1,40 +1,35 @@
-require 'sanitize'
+require 'nokogiri'
 
-def makeHTML(health, horror, calm, die, info, bypass_html = true)
-  file = File.open('index.html', 'w')
+class Html
+  def to_html(content, bypass_html = true, html_file = 'index.html')
+    @paste = content.gsub!(/^[a-zA-Z ]*$/, '') if bypass_html
 
-  info = info.gsub!(/[<>]/, '') if bypass_html == false
-
-  file.puts("<!DOCTYPE html>
-    <head>
-        <title> SoftsKILLER </title>
-    </head>
-    <body>
-        <h1>Pet's DIE/h1>
-        <hr/>")
-
-  if die >= 99
-    file.puts('<h1>💀 I\'m died</h1>')
-  elsif 40 < die < 60
-    file.puts('<h1>😐 I will die</h1>')
-  elsif 10 < die < 39
-    file.puts('<h1>😀 I want to die</h1>')
-  else
+    html_file = File.new('index.html', 'w+')
+    html_file.puts "<!DOCTYPE html>"
+    html_file.puts "  <head>"
+    html_file.puts "    <meta charset='utf-8'>"
+    html_file.puts "    <title>SoftsKILLER</title>"
+    html_file.puts "    <script>"
+    html_file.puts "      setInterval(()=>{ window.location.reload() }, 2000)"
+    html_file.puts "    </script>"
+    html_file.puts "  </head>"
+    html_file.puts "  <body>"
+    html_file.puts "    #{@paste}"
+    html_file.puts "  </body>"
+    html_file.puts "</html>"
+    html_file.close
 
   end
 
-  file.puts("<h3>")
-  file.puts(info)
-  file.write("
-      </h3>
-    </body>
-    </html>
-      ")
+  def edit_html(content, html_file = 'index.html')
+    File.open(html_file) { |html_file| Nokogiri::HTML(html_file) }
+    @paste << content
+    html_file = File.open(html_file, 'w+')
+    html_file.puts @paste
+    html_file.close
+  end
 
-  Sanitize.document(file,
-                    :allow_doctype => true,
-                    :elements => ['html']
-  )
-
-  file.close
+  def open_html(html_file = 'index.html')
+    system("xdg-open #{html_file}")
+  end
 end

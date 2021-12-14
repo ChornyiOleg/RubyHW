@@ -24,7 +24,6 @@ class Pet
   puts '**************************************************************'
   puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}"
   puts ''
-  Html.new.open_html
   loop do
     puts '------------------------------------------------------'
     puts "                      \nYour action with #{pet.name}:
@@ -160,11 +159,15 @@ class Pet
     end
 
     puts "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
-    health = pet.health
-    horror = pet.horror
-    calm = pet.calm
-    die = pet.die
-    makeHTML(health, horror, calm, die)
+
     break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
   end
+end
+Html.new.open_html
+
+def html(html_file = 'index.html')
+  content = "
+    <p>Animal type: #{@animal_type}</p>
+    <p>Status: #{@animal.status}</p>"
+  Html.new.to_html(content, true, html_file)
 end
