@@ -1,3 +1,5 @@
+require 'bundler'
+Bundler.setup
 require 'html_maker'
 
 class Pet
@@ -18,6 +20,7 @@ class Pet
     puts 'What will be a SoftsKILLER name:'
     name = gets.chomp
     pet = Pet.new(name, 100, 10, 100, 10, '', 0)
+
 
     puts '**************************************************************'
     puts "|         SoftsKILLER #{pet.name} was born to DIE💜!                |"
@@ -43,6 +46,7 @@ class Pet
           pet.calm -= rand(25) if pet.calm >= 26
           pet.die += rand(25) if pet.die <= 74
           puts "#{pet.name} enjoys the movie!#{pet.emotion}"
+          make_html(stats)
 
 
         when '2'
@@ -52,6 +56,7 @@ class Pet
           pet.calm += rand(10) if pet.calm < 89
           pet.die += rand(25) if pet.calm < 74
           puts "#{pet.name} is slightly calmed down!#{pet.emotion} But... I'm not sure"
+          make_html(stats)
 
         when '3'
           puts 'We should go to the doctor!'
@@ -61,6 +66,7 @@ class Pet
           pet.calm -= rand(10) if pet.calm.positive? && pet.calm < 89
           pet.die += rand(20) if pet.die.positive? && 79 > pet.die
           puts "#{pet.name} he hates state doctors who bought a degree for a pig, but he is thinking about Rorschach test #{pet.emotion}"
+          make_html(stats)
 
         when '4'
           pet.emotion = '🤓'
@@ -84,6 +90,7 @@ class Pet
             pet.calm -= rand(25)
             pet.die = 100 if pet.die.positive?
             puts "Bill killed himself #{pet.result}"
+            make_html(stats)
 
           when '2'
             puts 'Let\'s swim, Jack!'
@@ -94,7 +101,7 @@ class Pet
             pet.calm -= rand(25)
             pet.die = 100 if pet.die.positive?
             puts "Jack drowned #{pet.result}"
-            html
+            make_html(stats)
 
           when '3'
             puts 'Let\'s hang on, buddy!'
@@ -105,6 +112,7 @@ class Pet
             pet.calm -= rand(25)
             pet.die = 100 if pet.die.positive?
             puts "Buddy hung himself #{pet.result}"
+            make_html(stats)
 
           when '4'
             puts 'Let\'s freeze, Sub-Zero!'
@@ -115,6 +123,7 @@ class Pet
             pet.calm -= rand(25)
             pet.die = 100 if pet.die.positive?
             puts "Sub-zero froze to death #{pet.result}"
+            make_html(stats)
 
           else
             puts 'I\'m tired of waiting for you to tell me the best way to die... Farewell!'
@@ -124,6 +133,7 @@ class Pet
             pet.calm -= rand(25)
             pet.die = 100 if pet.die.positive?
             puts "#{pet.name} died from waiting to die #{pet.result}"
+            make_html(stats)
 
           end
         when ''
@@ -133,6 +143,7 @@ class Pet
           pet.horror += rand(25) if pet.horror <= 74
           pet.calm -= rand(25) if pet.calm >= 26
           pet.die += rand(25) if pet.die <= 74
+          make_html(stats)
 
         else
           pet.emotion = '🤔'
@@ -159,26 +170,18 @@ class Pet
           puts "\n\n#{pet.name} chose the best way to die. He will be reborn #{pet.emotion}"
         end
       end
-      info = "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
-      puts info
-      HTMLSaver.save(info, bypass_html: true)
+      puts "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
+
+      def stats
+        @stats = ''
+        @stats << "#{@health} Health "
+        @stats << "#{@calm} Calm "
+        @stats << "#{@Horror} Horror "
+        @stats << "#{@Die} Die "
+        @stats
+      end
+
       break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
     end
-      def info
-      info = <<~INFO
-        <p style="font-family:'Courier New'; text-align: center">health: #{@health}</p>
-        <p style="font-family:'Courier New'; text-align: center">horror: #{@horror}</p>
-        <p style="font-family:'Courier New'; text-align: center">calm: #{@calm}</p>
-        <p style="font-family:'Courier New'; text-align: center">die: #{@die}</p>
+ end
 
-       INFO
-       info += if @health <= 5
-              '<p style="text-align: center; font-family:\'Courier New\'; font-size: 40px">He will die<br>💀</p>'
-            elsif @calm <= 5
-              '<p style="text-align: center; font-family:\'Courier New\'; font-size: 40px">He almost die<br>💀</p>'
-            else
-              '<p style="text-align: center; font-family:\'Courier New\'; font-size: 40px">He already die<br>🐼</p>'
-            end
-       info
-      end
-end
