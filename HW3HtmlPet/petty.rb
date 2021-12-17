@@ -1,187 +1,165 @@
-require 'bundler'
-Bundler.setup
-require 'html_maker'
-
 class Pet
-  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result
 
-  movies = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
+  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say
 
-  def initialize(name, health, horror, calm, die, emotion, result)
+  MOVIES = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
+
+  def initialize(name)
     @name = name
-    @health = health
-    @horror = horror
-    @calm = calm
-    @die = die
+    @health = 100
+    @horror = 10
+    @calm = 100
+    @die = 10
     @emotion = emotion
     @result = result
+    @say = say
   end
 
-    puts 'What will be a SoftsKILLER name:'
-    name = gets.chomp
-    pet = Pet.new(name, 100, 10, 100, 10, '', 0)
-    make_html = make_html
+  def movie
+    p 'Let\'s watch the best horror movie!'
+    p @say = 'Oh! I like it as Lecter likes flesh juice!'
+    p "You are watching #{MOVIES.sample} together"
+    @emotion = '😱'
+    p "#{@name} enjoys the movie!#{@emotion}"
+    @health -= rand(25) if @health.positive?
+    @horror += rand(25) if @horror <= 74
+    @calm -= rand(25) if @calm >= 26
+    @die += rand(25) if @die <= 74
+  end
 
+  def relax
+    p "Try to calm #{@name}"
+    p 'Don\'t be afraid... the most horrible movie is yet to come '
+    @emotion = '🤗'
+    p "#{@name} is slightly calmed down!#{@emotion} But... I'm not sure"
+    @horror += rand(20) if @horror.positive? && (@horror < 79)
+    @calm += rand(10) if @calm < 89
+    @die += rand(25) if @calm < 74
+  end
 
-    puts '**************************************************************'
-    puts "|         SoftsKILLER #{pet.name} was born to DIE💜!                |"
-    puts '**************************************************************'
-    puts "Health #{pet.health}, Horror #{pet.horror}, Calm, #{pet.calm}, Die #{pet.die}, Emotion #{pet.emotion}"
-    puts ''
+  def psycho
+    p 'We should go to the doctor!'
+    p @say ='I agree! I must see this crazy psychologist'
+    @emotion = '😠'
+    p "#{@name} he hates state doctors who bought a degree for a pig, but he is thinking about Rorschach test #{@emotion}"
+    @health -= rand(10) if @health >= 11 && @health <= 100
+    @horror -= rand(10) if @horror < 100 && @horror > 11
+    @calm -= rand(10) if @calm.positive? && @calm < 89
+    @die += rand(20) if @die.positive? && 79 > @die
+  end
 
-    loop do
-      puts '------------------------------------------------------'
-      puts "                      \nYour action with #{pet.name}:
-     1 - Watch a horror movie, 2 - Calm down, buddy! 3 - Need a psychologist 4 - Tell him a way to die
-     \nChoose an action or press the Enter to be indifferent 🤨"
+  def death
+    @emotion = '😀'
+    p "I know the best way to die for you! #{@emotion}"
+    @emotion = '🙏'
+    p @say = "Tell me, tell me, please!!! #{@emotion}"
 
-      if pet.health.positive?
-        destiny = gets.chomp
-        case destiny
+    p '---------------------------------------------------------------------------'
 
-        when '1'
-          puts "You are watching #{movies.sample} together"
-          pet.emotion = '👀'
-          pet.health -= rand(25) if pet.health.positive?
-          pet.horror += rand(25) if pet.horror <= 74
-          pet.calm -= rand(25) if pet.calm >= 26
-          pet.die += rand(25) if pet.die <= 74
-          puts "#{pet.name} enjoys the movie!#{pet.emotion}"
-          make_html(stats)
+    p 'Choose a way to DIE using 6, 7, 8, 9 or press the Enter to be indifferent 🤨'
 
+    death = gets.chomp
 
-        when '2'
-          puts "Try to calm #{pet.name}"
-          pet.emotion = '🤗'
-          pet.horror += rand(20) if pet.horror.positive? && (pet.horror < 79)
-          pet.calm += rand(10) if pet.calm < 89
-          pet.die += rand(25) if pet.calm < 74
-          puts "#{pet.name} is slightly calmed down!#{pet.emotion} But... I'm not sure"
-          make_html(stats)
+    case death
 
-        when '3'
-          puts 'We should go to the doctor!'
-          pet.emotion = '🥵'
-          pet.health -= rand(10) if pet.health >= 11 && pet.health <= 100
-          pet.horror -= rand(10) if pet.horror < 100 && pet.horror > 11
-          pet.calm -= rand(10) if pet.calm.positive? && pet.calm < 89
-          pet.die += rand(20) if pet.die.positive? && 79 > pet.die
-          puts "#{pet.name} he hates state doctors who bought a degree for a pig, but he is thinking about Rorschach test #{pet.emotion}"
-          make_html(stats)
+    when '6'
+      p 'Let\'s kill, Beatrice!'
+      p @say = 'Ok, call me Bill!'
+      @result = '🗡'
+      @health -= rand(25)
+      @horror += rand(25)
+      @calm -= rand(25)
+      @die = 100 if @die.positive?
+      p "Bill killed himself #{@result}"
+      #html
 
-        when '4'
-          pet.emotion = '🤓'
-          puts "I know the best way to die for you! #{pet.emotion}"
-          pet.emotion = '🙏'
-          puts "Tell me, tell me, please!!! #{pet.emotion}"
+    when '7'
+      p 'Let\'s swim, Jack!'
+      p @say = 'Ok, Rose, call me Titanic!'
+      @result = '🌊'
+      @health -= rand(25)
+      @horror += rand(25)
+      @calm -= rand(25)
+      @die = 100 if @die.positive?
+      p "Jack drowned #{@result}"
+      #html
 
-          puts '---------------------------------------------------------------------------'
+    when '8'
+      p 'Let\'s hang on, buddy!'
+      p @say = 'I was just about to hang my body!'
+      @result = '🧟‍♂️'
+      @health -= rand(25)
+      @horror += rand(25)
+      @calm -= rand(25)
+      @die = 100 if @die.positive?
+      p "Buddy hung himself #{@result}"
+      #html
 
-          puts 'Choose a way to DIE using 1, 2, 3, 4 or press the Enter to be indifferent 🤨'
+    when '9'
+      p 'Let\'s freeze, Sub-Zero!'
+      p @say = 'Ok, call me icicle'
+      @result = '🥶'
+      @health -= rand(25)
+      @horror += rand(25)
+      @calm -= rand(25)
+      @die = 100 if @die.positive?
+      p "Sub-zero froze to death #{@result}"
+      #html
 
-          death = gets.chomp
-          case death
+    when ''
+      @emotion = '🤨'
+      p "Press the Enter to be indifferent #{@emotion}"
+      @health -= rand(25) if @health >= 26
+      @horror += rand(25) if @horror <= 74
+      @calm -= rand(25) if @calm >= 26
+      @die += rand(25) if @die <= 74
 
-          when '1'
-            puts 'Let\'s kill, Beatrice!'
-            puts 'Ok, call me Bill!'
-            pet.result = '🗡'
-            pet.health -= rand(25)
-            pet.horror += rand(25)
-            pet.calm -= rand(25)
-            pet.die = 100 if pet.die.positive?
-            puts "Bill killed himself #{pet.result}"
+      #html
+    else
+      @emotion = '🤔'
+      p "You entered #{death}, what is it? #{@emotion}"
+      p 'Try again!'
 
-
-          when '2'
-            puts 'Let\'s swim, Jack!'
-            puts 'Ok, Rose, call me Titanic!'
-            pet.result = '🌊'
-            pet.health -= rand(25)
-            pet.horror += rand(25)
-            pet.calm -= rand(25)
-            pet.die = 100 if pet.die.positive?
-            puts "Jack drowned #{pet.result}"
-
-          when '3'
-            puts 'Let\'s hang on, buddy!'
-            puts 'I was just about to hang my body!'
-            pet.result = '🧟️'
-            pet.health -= rand(25)
-            pet.horror += rand(25)
-            pet.calm -= rand(25)
-            pet.die = 100 if pet.die.positive?
-            puts "Buddy hung himself #{pet.result}"
-
-
-          when '4'
-            puts 'Let\'s freeze, Sub-Zero!'
-            puts 'Ok, call me icicle'
-            pet.result = '🥶'
-            pet.health -= rand(25)
-            pet.horror += rand(25)
-            pet.calm -= rand(25)
-            pet.die = 100 if pet.die.positive?
-            puts "Sub-zero froze to death #{pet.result}"
-
-
-          else
-            puts 'I\'m tired of waiting for you to tell me the best way to die... Farewell!'
-            pet.result = '💥'
-            pet.health -= rand(25)
-            pet.horror += rand(25)
-            pet.calm -= rand(25)
-            pet.die = 100 if pet.die.positive?
-            puts "#{pet.name} died from waiting to die #{pet.result}"
-
-
-          end
-        when ''
-          pet.emotion = '🤨'
-          puts "Press the Enter to be indifferent #{pet.emotion}"
-          pet.health -= rand(25) if pet.health >= 26
-          pet.horror += rand(25) if pet.horror <= 74
-          pet.calm -= rand(25) if pet.calm >= 26
-          pet.die += rand(25) if pet.die <= 74
-
-
-        else
-          pet.emotion = '🤔'
-          puts "You entered #{destiny}, what is it? #{pet.emotion}"
-          puts 'Try again!'
-          next
-        end
-
-        if pet.health <= 0
-          pet.health = 0
-          pet.emotion = '🤯'
-          puts "\n\n#{pet.name} died senselessly!!! He will be reborn #{pet.emotion}"
-        elsif pet.horror >= 100
-          pet.horror = 100
-          pet.emotion = '💀'
-          puts "\n\n#{pet.name} horribly died!!! He will be reborn #{pet.emotion}"
-        elsif pet.calm <= 0
-          pet.calm = 0
-          pet.emotion = '🤡'
-          puts "\n\n#{pet.name} didn't worry about death!!! He died happy! He will be reborn #{pet.emotion}"
-        elsif pet.die >= 100
-          pet.die = 100
-          pet.emotion = '💣'
-          puts "\n\n#{pet.name} chose the best way to die. He will be reborn #{pet.emotion}"
-        end
-      end
-      puts "HEALTH: #{pet.health}, HORROR: #{pet.horror}, CALM: #{pet.calm}, DIE: #{pet.die}"
-
-      break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
+    unless
+      p 'I\'m tired of waiting for you to tell me the best way to die... Farewell!'
+      @result = '💥'
+      @health -= rand(25)
+      @horror += rand(25)
+      @calm -= rand(25)
+      @die = 100 if @die.positive?
+      p "#{@name} died from waiting to die #{@result}"
+      #html
     end
-  make_html
- end
+  end
 
-def stats
-  @stats = ''
-  @stats << "#{@health} Health "
-  @stats << "#{@calm} Calm "
-  @stats << "#{@Horror} Horror "
-  @stats << "#{@Die} Die "
-  @stats
+  def stats
+    p "Health #{@health}, Horror #{@horror}, Calm, #{@calm}, Die #{@die}, Emotion #{@emotion}"
+  end
+
+  def died
+    if @health <= 0
+      @health = 0
+      @emotion = '🤯'
+      p "\n\n#{@name} died senselessly!!! He will be reborn #{@emotion}"
+    elsif @horror >= 100
+      @horror = 100
+      @emotion = '💀'
+      p "\n\n#{@name} horribly died!!! He will be reborn #{@emotion}"
+    elsif @calm <= 0
+      @calm = 0
+      @emotion = '😀'
+      p "\n\n#{@name} didn't worry about death!!! He died happy! He will be reborn #{@emotion}"
+    elsif @die >= 100
+      @die = 100
+      @emotion = '💣'
+      p "\n\n#{@name} chose the best way to die. He will be reborn #{@emotion}"
+    end
+  end
+  def meanwhile
+    @health -= rand(9) if @health >= 10
+    @calm -= rand(9) if @calm >=10
+    @horror += rand(9) if @horror < 90
+    @die += rand(9) if @die < 90
+  end
+  end
 end
