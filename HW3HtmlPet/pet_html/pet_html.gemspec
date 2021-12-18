@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Oleg Chornyi"]
   s.email       = 'olegchornyi82@gmail.com'
   s.files       = %w[lib/pet_html.rb lib/simple_html.rb lib/pet_html.html lib/index.html]
-  s.homepage    ='https://github.com/ChornyiOleg/RubyHW/tree/master/HW3HtmlPet/pet_html'
+  s.homepage    ='https://github.com/ChornyiOleg/RubyHW/tree/master/HW3HtmlPet'
   s.license       = 'MIT'
 end
