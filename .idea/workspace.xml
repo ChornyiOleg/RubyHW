@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="SoftsKiller">
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/simple_html.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/pet_html.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/petty.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/petty.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/pet_html/pet_html.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/pet_html.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +137,7 @@
       <workItem from="1639468152531" duration="13499000" />
       <workItem from="1639485086842" duration="17666000" />
       <workItem from="1639645466977" duration="14120000" />
-      <workItem from="1639864161030" duration="2862000" />
+      <workItem from="1639864161030" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -357,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639864824615</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="SoftsKiller">
+      <created>1639867303195</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639867303195</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,8 +9,8 @@ class PetHtml
     File.open(@html_new, 'w') {|f|
       content.gsub!('{{pet}}', @pet.class.to_s)
       content.gsub!('{{name}}', @pet.name) 
-      content.gsub!('{{health}}', @pet.states.join(','))
-      content.gsub!('{{horror}}', @pet.health.to_s)
+      content.gsub!('{{health}}', @pet.health.join(','))
+      content.gsub!('{{horror}}', @pet.horror.to_s)
       content.gsub!('{{emotion}}', @pet.emotion)
       content.gsub!('{{result}}', @pet.result.join('<br>'))
       f.puts content    
