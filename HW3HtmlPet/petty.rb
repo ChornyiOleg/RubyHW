@@ -1,3 +1,5 @@
+require 'pet_html'
+
 class Pet
   attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say
 
@@ -24,6 +26,8 @@ p '**************************************************************'
 p "***---- SoftsKILLER #{pet.name.capitalize}💜 was born to DIE!------------***"
 p '**************************************************************'
 p "Health💗️‍: #{pet.health}/#{MAX_POINTS}, Horror👻: #{pet.horror}/#{MAX_POINTS}, Calm🙂: #{pet.calm}/#{MAX_POINTS}, Die🖤: #{pet.die}/#{MAX_POINTS}"
+html = PetHtml.new(@pet)
+html.open_html
 
 loop do
   p '------------------------------------------------------'
@@ -45,6 +49,7 @@ loop do
       pet.horror += rand(25) if pet.horror <= 74
       pet.calm -= rand(25) if pet.calm >= 26
       pet.die += rand(25) if pet.die <= 74
+      update_html
 
     when '2'
       p "Try to calm #{@name}"
@@ -54,6 +59,7 @@ loop do
       pet.horror += rand(20) if pet.horror.positive? && (pet.horror < 79)
       pet.calm += rand(10) if pet.calm < 89
       pet.die += rand(25) if pet.calm < 74
+      update_html
 
     when '3'
       p 'We should go to the doctor!'
@@ -64,6 +70,7 @@ loop do
       pet.horror -= rand(10) if pet.horror < 100 && pet.horror > 11
       pet.calm -= rand(10) if pet.calm.positive? && pet.calm < 89
       pet.die += rand(20) if pet.die.positive? && pet.die < 79
+      update_html
 
     when '4'
       p 'I know the best way to die for you!'
@@ -71,8 +78,7 @@ loop do
       p pet.say = "Tell me, tell me, please!!! #{pet.emotion}"
       p '---------------------------------------------------------------------------'
       p 'Choose a way to DIE using 1, 2, 3, 4 or press the Enter to be indifferent 🤨'
-
-
+      update_html
 
       death = gets.chomp
       case death
@@ -143,6 +149,7 @@ loop do
       p 'Try again!'
       next
     end
+    update_html
 
     if pet.health <= 0
       pet.health = 0

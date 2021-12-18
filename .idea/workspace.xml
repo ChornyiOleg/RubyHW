@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="SoftsKiller">
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/pet_html.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/lib/simple_html.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/pet_html/pet_html.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3HtmlPet/game.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3HtmlPet/petty.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW3HtmlPet/petty.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +145,7 @@
       <workItem from="1639468152531" duration="13499000" />
       <workItem from="1639485086842" duration="17666000" />
       <workItem from="1639645466977" duration="14120000" />
-      <workItem from="1639864161030" duration="660000" />
+      <workItem from="1639864161030" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -341,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639727082732</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="SoftsKiller">
+      <created>1639864824615</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1639864824615</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
