@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Make HTML page with your pet game"
   s.authors     = ["Oleg Chornyi"]
   s.email       = 'olegchornyi82@gmail.com'
-  s.files       = %w[lib/pet_html.rb lib/simple_html.rb lib/pet_html.html lib/index.html]
-  s.homepage    ='https://github.com/ChornyiOleg/RubyHW/tree/master/HW3HtmlPet'
+  s.files       = ["lib/pet_html.rb"]
+  s.homepage    = 'https://github.com/ChornyiOleg/RubyHW/tree/master/HW3HtmlPet'
   s.license       = 'MIT'
 end
