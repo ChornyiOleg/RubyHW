@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="SoftsKiller FINISH!">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="something corrected!">
+      <change afterPath="$PROJECT_DIR$/HW3HtmlPet/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/task1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/task1.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,7 @@
       <workItem from="1639485086842" duration="17666000" />
       <workItem from="1639645466977" duration="14120000" />
       <workItem from="1639864161030" duration="7722000" />
-      <workItem from="1639919529188" duration="12553000" />
+      <workItem from="1639919529188" duration="13077000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -441,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639930049757</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="something corrected!">
+      <created>1639933748865</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1639933748865</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +480,8 @@
     <MESSAGE value="html_maker replace" />
     <MESSAGE value="SoftsKiller" />
     <MESSAGE value="SoftsKiller FINISH!" />
-    <option name="LAST_COMMIT_MESSAGE" value="SoftsKiller FINISH!" />
+    <MESSAGE value="something corrected!" />
+    <option name="LAST_COMMIT_MESSAGE" value="something corrected!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@pet__1_.rcov" NAME="pet (1) Coverage Results" MODIFIED="1639367133680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
