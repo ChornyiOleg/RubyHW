@@ -4,7 +4,7 @@ Bundler.setup
 require 'pet_html'
 
 class Pet
-  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say
+  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say, :stats
 
   def initialize(name)
     @name = name
@@ -15,7 +15,9 @@ class Pet
     @emotion = emotion
     @result = result
     @say = say
+    @stats = [@health, @horror, @calm, @die]
   end
+
 end
 
 MOVIES = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
@@ -24,10 +26,11 @@ MAX_POINTS = 100
 p 'What will be a SoftsKILLER name:'
 name = gets.chomp
 pet = Pet.new(name.capitalize)
-
+p stats = pet.stats
 p '**************************************************************'
 p "***---- SoftsKILLER #{pet.name.capitalize}💜 was born to DIE!------------***"
 p '**************************************************************'
+
 p "Health💗️‍: #{pet.health}/#{MAX_POINTS}, Horror👻: #{pet.horror}/#{MAX_POINTS}, Calm🙂: #{pet.calm}/#{MAX_POINTS}, Die🖤: #{pet.die}/#{MAX_POINTS}"
 
 loop do
@@ -36,8 +39,8 @@ loop do
   p '1 - Watch a horror movie👿, 2 - Calm down, buddy!🤫, 3 - Need a psychologist💊, 4 - Tell him a way to die🧨'
   p 'Choose an action or press the Enter to be indifferent 🤨'
   p pet
-  content = "<p>#{pet.emotion}</p>"
-  content += "<p>#{pet.status.gsub! "\n", "</p>\n<p>"}</p>}"
+  content = "<p>I'm your SoftsKILLER #{pet.name}</p>"
+  content += "<p>I would like to watch #{movies = MOVIES.join(", ")}</p>"
   save_content(content, 'index.html')
 
   if pet.health.positive?
@@ -174,7 +177,6 @@ loop do
       p "#{pet.name} chose the best way to die#{pet.emotion}. He will be reborn"
     end
   end
-  status = "Health: #{pet.health}/#{MAX_POINTS}, Horror: #{pet.horror}/#{MAX_POINTS}, Calm: #{pet.calm}/#{MAX_POINTS}, Die #{pet.die}/#{MAX_POINTS}"
-  p status
+    p "Health: #{pet.health}/#{MAX_POINTS}, Horror: #{pet.horror}/#{MAX_POINTS}, Calm: #{pet.calm}/#{MAX_POINTS}, Die #{pet.die}/#{MAX_POINTS}"
   break unless pet.health.positive? && pet.horror < 100 && pet.calm.positive? && pet.die < 100
 end

@@ -1,10 +1,19 @@
+GIT
+  remote: https://github.com/ChornyiOleg/RubyHW
+  revision: cdd66ceb0074ab236a38d25e1b1ca58ef7d2e2cb
+  glob: HW3HtmlPet/pet_html/*.gemspec
+  specs:
+    pet_html (0.0.1)
+
 GEM
+  remote: https://rubygems.org/
   specs:
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  pet_html!
 
 BUNDLED WITH
    2.2.33
