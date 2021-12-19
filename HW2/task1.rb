@@ -99,7 +99,7 @@ p 'a better one'
 p data = [621, 445, 147, 159, 430, 222, 482, 44, 194, 522, 652, 494, 14, 126, 532, 387, 441, 471, 337, 446, 18, 36,
           202, 574, 556, 458, 16, 139, 222, 220, 107, 82, 264, 366, 501, 319, 314, 430, 55, 336]
 p alphabet = %w[a b c d e f g h i j k l m o p q r s t u v
-              w x y z]
+                w x y z]
 p alphabet.select.with_index { |_e, i| data.include?(i) }
 p '----------------------------------------------------------------------------------'
 
@@ -110,14 +110,15 @@ p "int_arr.index(int_arr.max) < int_arr.index(int_arr.min) ? (int_arr[int_arr.in
 p 'int_arr'
 p int_arr = [621, 445, 147, 159, 430, 222, 482, 44, 194, 522, 652, 494, 14, 126, 532, 387, 441, 471, 337, 446, 18, 36,
              202, 574, 556, 458, 16, 139, 222, 220, 107, 82, 264, 366, 501, 319, 314, 430, 55, 336]
+
 p if int_arr.index(int_arr.max) < int_arr.index(int_arr.min)
-  (int_arr[int_arr.index(int_arr.min)], int_arr[int_arr.index(int_arr.max)] =
-                                                               int_arr[int_arr.index(int_arr.max)], 
+(int_arr[int_arr.index(int_arr.min)], int_arr[int_arr.index(int_arr.max)] =
+   int_arr[int_arr.index(int_arr.max)],
 int_arr[int_arr.index(int_arr.min)])
-else
-  (int_arr[int_arr.index(int_arr.max)], int_arr[int_arr.index(int_arr.min)] = int_arr[int_arr.index(int_arr.min)], int_arr[int_arr.index(int_arr.max)
+
+(int_arr[int_arr.index(int_arr.max)], int_arr[int_arr.index(int_arr.min)] = int_arr[int_arr.index(int_arr.min)], int_arr[int_arr.index(int_arr.max)
 ])
-end
+
 p int_arr
 p '----------------------------------------------------------------------------------'
 
