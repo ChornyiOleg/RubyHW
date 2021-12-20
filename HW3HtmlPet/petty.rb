@@ -26,7 +26,7 @@ MAX_POINTS = 100
 p 'What will be a SoftsKILLER name:'
 name = gets.chomp
 pet = Pet.new(name.capitalize)
-p stats = pet.stats
+
 p '**************************************************************'
 p "***---- SoftsKILLER #{pet.name.capitalize}💜 was born to DIE!------------***"
 p '**************************************************************'
