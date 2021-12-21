@@ -1,21 +1,25 @@
-require 'io/console'
-require 'bundler'
-Bundler.setup
-require 'pet_html'
+require "erb"
+require 'pry'
+require "./app/lib/logic"
+require "rack"
 
 class Pet
-  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say, :stats
+  include Logic
+  
+  def self.call(env)
+    new(env).response&.finish
+  end
 
-  def initialize(name)
-    @name = name
+  def initialize(env)
+    @req = Rack::Request.new(env)
     @health = 100
     @horror = 10
     @calm = 100
     @die = 10
     @emotion = emotion
     @result = result
-    @say = say
-    @stats = [@health, @horror, @calm, @die]
+    @say = "Hi! I want to die!"
+    
   end
 
 end
