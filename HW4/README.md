@@ -31,12 +31,12 @@ for example port=9292
 
 Enter user
 ```
-guest
+master
 ```
 
 Enter password
 ```
-afafaf123sg
+myPet1
 ```
 Click "Sing in"
 
@@ -52,7 +52,7 @@ After redirect:
 
 - You can click on some button with options and score of pet will be change 
 
-- Pet has 5 lives. If one of the states is 0 and you did not fix it, then one life is taken away.If there are 0 lives, you get redirect to `/end` page and game will be finished.
+- If one of the states is 0 or 100 and you did not fix it you will redirect to `/end` page and game will be finished.
 
 
 
