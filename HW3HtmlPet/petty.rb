@@ -1,27 +1,18 @@
-require "erb"
-require 'pry'
-require "./app/lib/logic"
-require "rack"
+require 'pet_html'
 
 class Pet
-  include Logic
-  
-  def self.call(env)
-    new(env).response&.finish
-  end
+  attr_accessor :name, :health, :horror, :calm, :die, :emotion, :result, :say
 
-  def initialize(env)
-    @req = Rack::Request.new(env)
+  def initialize(name)
+    @name = name
     @health = 100
     @horror = 10
     @calm = 100
     @die = 10
     @emotion = emotion
     @result = result
-    @say = "Hi! I want to die!"
-    
+    @say = say
   end
-
 end
 
 MOVIES = ['Saw', 'Final Destination', 'Evil Dead', 'Scream', 'Silent Hill'].freeze
