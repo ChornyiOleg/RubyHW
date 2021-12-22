@@ -35,7 +35,7 @@ loop do
   p 'Choose an action or press the Enter to be indifferent 🤨'
   p pet
   content = "<p>I'm your SoftsKILLER #{pet.name}</p>"
-  content += "<p>I would like to watch #{movies = MOVIES.join(", ")}</p>"
+  content += "<p>I would like to watch #{movies = MOVIES.join(", ")}👿</p>"
   save_content(content, 'index.html')
 
   if pet.health.positive?
