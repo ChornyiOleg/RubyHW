@@ -4,10 +4,10 @@ require './app/pet'
 module Logic
   module_function
 
-  OPTION = { watch: { "health": -20, "horror": 20, "calm": -20, "die": 20 },
-             relax: { "health": 10, "horror": 10, "calm": 10, "die": 10 },
-             psycho: { "health": 10, "horror": -5, "calm": -20, "die": -5 },
-             died: { "health": -100, "horror": 20, "calm": -20, "die": 100 } }.freeze
+  OPTION = { watch: { health: -20, horror: 20, calm: -20, die: 20 },
+             relax: { health: 10, horror: 10, calm: 10, die: 10 },
+             psycho: { health: 10, horror: -5, calm: -20, die: -5 },
+             died: { health: -100, horror: 20, calm: -20, die: 100 } }.freeze
 
   def change_params(req)
     Rack::Response.new do |response|
