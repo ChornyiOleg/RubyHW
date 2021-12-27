@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 index update">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,14 +281,7 @@
       <workItem from="1640210959422" duration="147000" />
       <workItem from="1640459314295" duration="1976000" />
       <workItem from="1640538057649" duration="39029000" />
-      <workItem from="1640642577899" duration="643000" />
-    </task>
-    <task id="LOCAL-00001" summary="CreateHtmlGem">
-      <created>1638820236097</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1638820236097</updated>
+      <workItem from="1640642577899" duration="1343000" />
     </task>
     <task id="LOCAL-00002" summary="CreateHtmlGem">
       <created>1638820253745</created>
@@ -626,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640641652096</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="HW6 index update">
+      <created>1640644940471</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1640644940472</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
