@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 start CV">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 Controller update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/controllers/concerns/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/controllers/main_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW6/cv_olegchornyi/app/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework6/cv-lime/cv-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -284,7 +280,7 @@
       <workItem from="1640210211728" duration="56000" />
       <workItem from="1640210959422" duration="147000" />
       <workItem from="1640459314295" duration="1976000" />
-      <workItem from="1640538057649" duration="36299000" />
+      <workItem from="1640538057649" duration="38230000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -615,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640550470213</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="HW6 Controller update">
+      <created>1640620061407</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1640620061407</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +658,8 @@
     <MESSAGE value="HW4 update" />
     <MESSAGE value="HW6 Create project for CV" />
     <MESSAGE value="HW6 start CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6 start CV" />
+    <MESSAGE value="HW6 Controller update" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6 Controller update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@pet__1_.rcov" NAME="pet (1) Coverage Results" MODIFIED="1639367133680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
@@ -667,7 +671,7 @@
     <SUITE FILE_PATH="coverage/RubyHW@petty__1_.rcov" NAME="petty (1) Coverage Results" MODIFIED="1639444983335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1639446165674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@html_maker.rcov" NAME="html_maker Coverage Results" MODIFIED="1639449538886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html_maker/lib" MODULE_NAME="html_maker" />
-    <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1640614942056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1640641425826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
     <SUITE FILE_PATH="coverage/RubyHW@pet2.rcov" NAME="pet2 Coverage Results" MODIFIED="1639864208147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@tasks.rcov" NAME="tasks Coverage Results" MODIFIED="1639933434232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@html_maker__1_.rcov" NAME="html_maker (1) Coverage Results" MODIFIED="1639517854414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html_maker/lib" MODULE_NAME="html_maker" />
