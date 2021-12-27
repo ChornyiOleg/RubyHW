@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 Controller update">
+    <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 index update">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework6/cv-lime/cv-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework6/cvyulia/cv-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -280,7 +280,8 @@
       <workItem from="1640210211728" duration="56000" />
       <workItem from="1640210959422" duration="147000" />
       <workItem from="1640459314295" duration="1976000" />
-      <workItem from="1640538057649" duration="38230000" />
+      <workItem from="1640538057649" duration="39029000" />
+      <workItem from="1640642577899" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="CreateHtmlGem">
       <created>1638820236097</created>
@@ -618,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640620061407</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="HW6 index update">
+      <created>1640641652096</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1640641652096</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +667,8 @@
     <MESSAGE value="HW6 Create project for CV" />
     <MESSAGE value="HW6 start CV" />
     <MESSAGE value="HW6 Controller update" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6 Controller update" />
+    <MESSAGE value="HW6 index update" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6 index update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@pet__1_.rcov" NAME="pet (1) Coverage Results" MODIFIED="1639367133680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
