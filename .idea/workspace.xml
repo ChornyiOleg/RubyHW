@@ -5,8 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 index update">
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/HW7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/actiontext.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/posts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/controllers/posts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/helpers/posts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/models/author.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/models/post.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/active_storage/blobs/_blob.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/_post.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220104011249_create_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220104024147_create_authors.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220108193741_add_author_id_to_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/db:migrate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/pet_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/pet_html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +69,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HW6/cv_olegchornyi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -64,7 +111,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework6/cvyulia/cv-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework7/blogyulyazip (1)/blog-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -96,14 +143,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: cv_olegchornyi">
-    <configuration name="Development: cv_olegchornyi" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="cv_olegchornyi" />
+  <component name="RunManager" selected="Rails.Development: blog">
+    <configuration name="IRB: RubyHW" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="RubyHW" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/.gem/ruby/3.0.0/bin/irb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="CONSOLE_TYPE" VALUE="IRB" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IRB: blog" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="blog" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/.gem/ruby/3.0.0/bin/irb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="CONSOLE_TYPE" VALUE="IRB" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Development: blog" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -117,16 +204,16 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Production: cv_olegchornyi" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="cv_olegchornyi" />
+    <configuration name="Production: blog" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -142,15 +229,39 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="spec: cv_olegchornyi" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="cv_olegchornyi" />
+    <configuration name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="forty_two" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW3/forty_two" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: blog" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -171,10 +282,10 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test: cv_olegchornyi" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="cv_olegchornyi" />
+    <configuration name="test: blog" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -198,10 +309,10 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="cv_olegchornyi" />
+    <configuration name="author" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="blog" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog/app/models" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -213,14 +324,14 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../HW6/cv_olegchornyi/app/controllers/main_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../HW7/blog/app/models/author.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="petty" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="HW3HtmlPet" />
+    <configuration name="seeds" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="blog" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW3HtmlPet" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW7/blog/db" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -232,14 +343,28 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../HW3HtmlPet/petty.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../HW7/blog/db/seeds.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Rails.Production: blog" />
+      <item itemvalue="Rails.Development: blog" />
+      <item itemvalue="Rake.test: blog" />
+      <item itemvalue="Rake.spec: blog" />
+      <item itemvalue="Ruby.seeds" />
+      <item itemvalue="Rake.db:migrate" />
+      <item itemvalue="Ruby.author" />
+      <item itemvalue="Ruby Console.IRB: blog" />
+      <item itemvalue="Ruby Console.IRB: RubyHW" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.main_controller" />
-        <item itemvalue="Ruby.petty" />
+        <item itemvalue="Ruby Console.IRB: RubyHW" />
+        <item itemvalue="Ruby.seeds" />
+        <item itemvalue="Ruby Console.IRB: blog" />
+        <item itemvalue="Ruby.author" />
+        <item itemvalue="Rake.db:migrate" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +406,37 @@
       <workItem from="1640210959422" duration="147000" />
       <workItem from="1640459314295" duration="1976000" />
       <workItem from="1640538057649" duration="39029000" />
-      <workItem from="1640642577899" duration="1343000" />
+      <workItem from="1640642577899" duration="1886000" />
+      <workItem from="1640646208588" duration="622000" />
+      <workItem from="1640709878945" duration="3006000" />
+      <workItem from="1640791112240" duration="20000" />
+      <workItem from="1640803214831" duration="4794000" />
+      <workItem from="1640813574981" duration="3963000" />
+      <workItem from="1640817770791" duration="95000" />
+      <workItem from="1641219005944" duration="4101000" />
+      <workItem from="1641223484051" duration="3725000" />
+      <workItem from="1641229080231" duration="1078000" />
+      <workItem from="1641233586809" duration="16000" />
+      <workItem from="1641233679838" duration="301000" />
+      <workItem from="1641234309337" duration="3752000" />
+      <workItem from="1641239007885" duration="143000" />
+      <workItem from="1641239351479" duration="459000" />
+      <workItem from="1641239875329" duration="1563000" />
+      <workItem from="1641241535327" duration="200000" />
+      <workItem from="1641241772090" duration="159000" />
+      <workItem from="1641241966410" duration="343000" />
+      <workItem from="1641242352876" duration="213000" />
+      <workItem from="1641242599067" duration="501000" />
+      <workItem from="1641243162291" duration="392000" />
+      <workItem from="1641243589745" duration="171000" />
+      <workItem from="1641243899074" duration="1605000" />
+      <workItem from="1641245595923" duration="909000" />
+      <workItem from="1641246544427" duration="758000" />
+      <workItem from="1641247377316" duration="176000" />
+      <workItem from="1641248229921" duration="448000" />
+      <workItem from="1641248877113" duration="23985000" />
+      <workItem from="1641384837244" duration="596000" />
+      <workItem from="1641472044015" duration="81392000" />
     </task>
     <task id="LOCAL-00002" summary="CreateHtmlGem">
       <created>1638820253745</created>
@@ -648,6 +803,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/HW3/forty_two" />
       <path value="$PROJECT_DIR$/HW3HtmlPet/Pet/create_html/create_html" />
+      <path value="$PROJECT_DIR$/HW6/cv_olegchornyi" />
+      <path value="$PROJECT_DIR$/HW7/blog" />
+      <path value="$PROJECT_DIR$/HW7/myapp" />
     </ignored-roots>
     <MESSAGE value="CreateHtmlGem" />
     <MESSAGE value="html_maker" />
@@ -675,16 +833,20 @@
     <SUITE FILE_PATH="coverage/RubyHW@petty__2_.rcov" NAME="petty (2) Coverage Results" MODIFIED="1639449143347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@newpet.rcov" NAME="newpet Coverage Results" MODIFIED="1639608422112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@game.rcov" NAME="game Coverage Results" MODIFIED="1639829111261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1639933586241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@pet.rcov" NAME="pet Coverage Results" MODIFIED="1641244511020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2/Pet" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@petty.rcov" NAME="petty Coverage Results" MODIFIED="1640209646100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="HW3HtmlPet" />
     <SUITE FILE_PATH="coverage/RubyHW@petty__1_.rcov" NAME="petty (1) Coverage Results" MODIFIED="1639444983335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3HtmlPet" MODULE_NAME="RubyHW" />
-    <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1639446165674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@author.rcov" NAME="author Coverage Results" MODIFIED="1641521352034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog/app/models" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/RubyHW@IRB__RubyHW.rcov" NAME="IRB: RubyHW Coverage Results" MODIFIED="1641525117106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@html_maker.rcov" NAME="html_maker Coverage Results" MODIFIED="1639449538886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html_maker/lib" MODULE_NAME="html_maker" />
-    <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1640641425826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1640712036392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
     <SUITE FILE_PATH="coverage/RubyHW@pet2.rcov" NAME="pet2 Coverage Results" MODIFIED="1639864208147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="RubyHW" />
     <SUITE FILE_PATH="coverage/RubyHW@tasks.rcov" NAME="tasks Coverage Results" MODIFIED="1639933434232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" MODULE_NAME="RubyHW" />
+    <SUITE FILE_PATH="coverage/RubyHW@seeds.rcov" NAME="seeds Coverage Results" MODIFIED="1641523666386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog/db" MODULE_NAME="blog" />
     <SUITE FILE_PATH="coverage/RubyHW@html_maker__1_.rcov" NAME="html_maker (1) Coverage Results" MODIFIED="1639517854414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html_maker/lib" MODULE_NAME="html_maker" />
     <SUITE FILE_PATH="coverage/RubyHW@main_controller.rcov" NAME="main_controller Coverage Results" MODIFIED="1640614892805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi/app/controllers" MODULE_NAME="cv_olegchornyi" />
     <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639440101742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_html/lib" MODULE_NAME="CreateHtml" />
+    <SUITE FILE_PATH="coverage/RubyHW@IRB__blog.rcov" NAME="IRB: blog Coverage Results" MODIFIED="1641523074232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1641755453715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
   </component>
 </project>
