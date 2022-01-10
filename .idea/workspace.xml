@@ -5,55 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e170ba-2340-49e2-ba11-a43f0a30ab53" name="Changes" comment="HW6 index update">
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/HW7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/actiontext.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/posts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/controllers/posts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/helpers/posts_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/models/author.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/models/post.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/active_storage/blobs/_blob.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/_post.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220104011249_create_posts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220104024147_create_authors.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/db/migrate/20220108193741_add_author_id_to_posts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW7/blog/db:migrate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/pet_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/pet_html.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7/.idea/HW7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/.idea/HW7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/blog/blog.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +95,7 @@
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
+        <option value="$PROJECT_DIR$/HW7/blog/ruby-getting-started" />
         <option value="$PROJECT_DIR$/../html_maker" />
       </list>
     </option>
@@ -352,8 +309,8 @@
       <item itemvalue="Rails.Development: blog" />
       <item itemvalue="Rake.test: blog" />
       <item itemvalue="Rake.spec: blog" />
-      <item itemvalue="Ruby.seeds" />
       <item itemvalue="Rake.db:migrate" />
+      <item itemvalue="Ruby.seeds" />
       <item itemvalue="Ruby.author" />
       <item itemvalue="Ruby Console.IRB: blog" />
       <item itemvalue="Ruby Console.IRB: RubyHW" />
@@ -436,7 +393,8 @@
       <workItem from="1641248229921" duration="448000" />
       <workItem from="1641248877113" duration="23985000" />
       <workItem from="1641384837244" duration="596000" />
-      <workItem from="1641472044015" duration="81392000" />
+      <workItem from="1641472044015" duration="81888000" />
+      <workItem from="1641841838555" duration="482000" />
     </task>
     <task id="LOCAL-00002" summary="CreateHtmlGem">
       <created>1638820253745</created>
@@ -806,6 +764,7 @@
       <path value="$PROJECT_DIR$/HW6/cv_olegchornyi" />
       <path value="$PROJECT_DIR$/HW7/blog" />
       <path value="$PROJECT_DIR$/HW7/myapp" />
+      <path value="$PROJECT_DIR$/HW7/blog/ruby-getting-started" />
     </ignored-roots>
     <MESSAGE value="CreateHtmlGem" />
     <MESSAGE value="html_maker" />
@@ -847,6 +806,6 @@
     <SUITE FILE_PATH="coverage/RubyHW@main_controller.rcov" NAME="main_controller Coverage Results" MODIFIED="1640614892805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi/app/controllers" MODULE_NAME="cv_olegchornyi" />
     <SUITE FILE_PATH="coverage/RubyHW@create_html.rcov" NAME="create_html Coverage Results" MODIFIED="1639440101742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_html/lib" MODULE_NAME="CreateHtml" />
     <SUITE FILE_PATH="coverage/RubyHW@IRB__blog.rcov" NAME="IRB: blog Coverage Results" MODIFIED="1641523074232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
-    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1641755453715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1641842103089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
   </component>
 </project>
