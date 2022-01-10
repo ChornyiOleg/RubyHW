@@ -21,4 +21,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ...HEROKU LINK
+  https://enigmatic-river-00549.herokuapp.com/posts
