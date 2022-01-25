@@ -4,11 +4,167 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188fad2c-2ba9-4656-bb10-f08faf980208" name="Changes" comment="" />
+    <list default="true" id="188fad2c-2ba9-4656-bb10-f08faf980208" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/fb316f22-06c7-4b35-aee8-ea2de4792b9b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/fb316f22-06c7-4b35-aee8-ea2de4792b9b/storage_v2/_src_/database/blog_development.HsjP9Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/fb316f22-06c7-4b35-aee8-ea2de4792b9b/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/blog3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_25_01_22__14_19__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/HW7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW8/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/RubyHW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/fb316f22-06c7-4b35-aee8-ea2de4792b9b/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/fb316f22-06c7-4b35-aee8-ea2de4792b9b/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/blog1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/blog1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../HW8/blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/.ruby-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/stylesheets/actiontext.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/stylesheets/application.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/stylesheets/posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/assets/stylesheets/scaffolds.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/controllers/posts_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/helpers/posts_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/javascript/channels/consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/javascript/channels/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/javascript/packs/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/models/author.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/models/post.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/active_storage/blobs/_blob.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/_post.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/app/views/posts/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/webpack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/webpack-dev-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/blog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/permissions_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/webpack/development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/webpack/environment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/webpack/production.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/webpack/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/config/webpacker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220104011249_create_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220104024147_create_authors.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220106235141_create_active_storage_tables.active_storage.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220106235142_create_action_text_tables.action_text.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220108193741_add_author_id_to_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/migrate/20220116175642_remove_name_from_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/db:migrate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/log/development.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/tmp/miniprofiler/mp_views_127.0.0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/tmp/pids/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/tmp/restart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/tmp/storage/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW8/blog/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -18,6 +174,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -28,6 +187,17 @@
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HW7@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1642953122460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog" MODULE_NAME="blog" />

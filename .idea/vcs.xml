@@ -2,8 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HW Comments/blog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HW6/cv_olegchornyi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HW7/blog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HW8/blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HW8_blog_with_comments/blog" vcs="Git" />
   </component>
 </project>

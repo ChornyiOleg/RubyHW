@@ -2,9 +2,19 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="RM-213.6461.75">
     <data-source name="postgres@localhost" uuid="a3124cbd-4403-43cc-b955-d350839668e1">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <database-info product="PostgreSQL" version="12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.22" dbms="POSTGRES" exact-version="12.9" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>forget</secret-storage>
-      <schema-mapping />
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="blog_development">
+            <node kind="schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
     <data-source name="Rails cv_olegchornyi: development" uuid="847a8313-9c8a-424a-b8e3-579ff17ce77b">
       <database-info product="SQLite" version="3.34.0" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.34.0" dbms="SQLITE" exact-version="3.34.0" exact-driver-version="3.34">
@@ -73,6 +83,18 @@
       <schema-mapping />
     </data-source>
     <data-source name="Rails blog1: test" uuid="461bdc04-59cb-4f30-9ed8-5aa3f568a6b2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails blog2: development" uuid="fb316f22-06c7-4b35-aee8-ea2de4792b9b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails blog2: production" uuid="f3351d13-cc81-48df-9413-27a3a3256864">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails blog2: test" uuid="2fc97e0d-c231-41d7-9e64-ebe12f0465bf">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
       <schema-mapping />
     </data-source>

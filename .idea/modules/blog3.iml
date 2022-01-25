@@ -5,26 +5,23 @@
       <configuration>
         <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
         <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
-        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../HW7/blog" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
       </configuration>
     </facet>
   </component>
-  <component name="ModuleRunConfigurationManager">
-    <shared />
-  </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../HW7/blog">
-      <sourceFolder url="file://$MODULE_DIR$/../../HW7/blog/features" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../HW7/blog/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../HW7/blog/test" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/.bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/public/packs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/vendor/bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/vendor/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/log" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/public/system" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW7/blog/components" />
+    <content url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog">
+      <sourceFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/.bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/log" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/../../HW8_blog_with_comments/blog/components" />
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-3.0.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -1342,7 +1339,7 @@
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
-    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/../../HW7/blog/config/locales" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/../../HW8_blog_with_comments/blog/config/locales" />
   </component>
   <component name="RailsGeneratorsCache">
     <option name="generators">
