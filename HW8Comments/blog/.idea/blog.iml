@@ -5,7 +5,7 @@
       <configuration>
         <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
         <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
-        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../HW8/blog" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$" />
       </configuration>
     </facet>
   </component>
@@ -13,20 +13,20 @@
     <shared />
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../HW8Comments/blog">
-      <sourceFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/features" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/test" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/.bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/vendor/bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/vendor/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/log" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/components" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/public/packs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../HW8Comments/blog/public/system" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/log" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/components" />
     </content>
-    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.3" jdkType="RUBY_SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="actioncable (vbundled(6.1.4.4)) [path][gem]" type="rubylib">
@@ -618,28 +618,6 @@
           <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_mime-1.1.2/bin" />
           <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_mime-1.1.2/bench" />
           <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_mime-1.1.2/.github" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="mini_portile2 (vbundled(2.7.1)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -1338,10 +1316,9 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.4, RVM: ruby-3.0.3) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
-    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/../../HW8/blog/config/locales" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/config/locales" />
   </component>
 </module>
