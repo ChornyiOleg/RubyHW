@@ -622,6 +622,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="mini_portile2 (vbundled(2.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="minitest (vbundled(5.15.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />

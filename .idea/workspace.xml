@@ -5,45 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d500be42-8ca2-405f-88e0-fd59faabea46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/blog1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220116175642_remove_name_from_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/blog2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/blog3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/.idea/HW7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW7/blog/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/HW8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/modules/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/helpers/comments_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/views/comments/_comment.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/views/comments/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/views/comments/new.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118095215_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118095935_add_post_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118100101_add_author_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118100328_add_comments_counter_cache_to_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118152228_create_views.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118152341_add_views_count_to_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/.idea/HW8_blog_with_comments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/assets/stylesheets/comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/helpers/comments_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/comments/_comment.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/comments/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/comments/new.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118095215_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118095935_add_post_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118100101_add_author_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118100328_add_comments_counter_cache_to_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118152228_create_views.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/migrate/20220118152341_add_views_count_to_posts.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RubyHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyHW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/olegch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/26ce2d8d-1bd7-4f8e-bd4d-a77b20c08434/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a07c367e-e0e8-4cae-882b-804a72ae8112.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a07c367e-e0e8-4cae-882b-804a72ae8112.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/blog_test.D0M5Og/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a3124cbd-4403-43cc-b955-d350839668e1/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c2d6aa2c-f750-4f19-8d8f-4abd1c8263c7/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CreateHtml.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW3HtmlPet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HW4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/create_html.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv_olegchornyi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/forty_two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/forty_two.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/html_maker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/myapp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/nokogiri-1.12.5-x86_64-linux.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/pet_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/pet_html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/blog1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/blog1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/app/views/main/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/cv_olegchornyi/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/HW7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources/44878b78-9256-4765-a92a-45aee88f637d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources/44878b78-9256-4765-a92a-45aee88f637d/storage_v2/_src_/database/blog_development.HsjP9Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources/44878b78-9256-4765-a92a-45aee88f637d/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources/44878b78-9256-4765-a92a-45aee88f637d/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/dataSources/44878b78-9256-4765-a92a-45aee88f637d/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW7/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/.idea/blog.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/.idea/misc.xml" beforeDir="false" />
@@ -51,15 +78,43 @@
       <change beforePath="$PROJECT_DIR$/HW7/blog/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/blog/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/blog/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/blog/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW7/blog/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HW7/blog/config/database.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/blog.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/models/author.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/_post.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/_post.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW8/blog/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/.idea/blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/models/author.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/_post.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/_post.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/posts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_blog_with_comments/blog/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +122,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HW7/blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HW8_blog_with_comments/blog" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -94,20 +149,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW8/blog/app/views/comments" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW8/blog/app/views/comments" />
+      <recent name="$PROJECT_DIR$/HW8_blog_with_comments/blog/app/views/comments" />
+      <recent name="$PROJECT_DIR$/HW8/blog/app/controllers" />
       <recent name="$PROJECT_DIR$/HW8/blog" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: blog">
+  <component name="RunManager" selected="Rails.Development: blog2">
     <configuration name="Development: blog" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -133,13 +191,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Development: blog1" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="blog1" />
+    <configuration name="Development: blog2" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="blog2" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8/blog" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3 [global]" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -208,13 +266,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Production: blog1" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="blog1" />
+    <configuration name="Production: blog2" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="blog2" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8/blog" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3 [global]" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -253,7 +311,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
@@ -355,6 +413,54 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="spec: blog2" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog2" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: blog3" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog3" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="spec: cv_olegchornyi" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="cv_olegchornyi" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -433,6 +539,60 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test: blog2" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog2" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: blog3" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="blog3" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test: cv_olegchornyi" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="cv_olegchornyi" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -462,10 +622,8 @@
     </configuration>
     <list>
       <item itemvalue="Rails.Development: blog" />
-      <item itemvalue="Rails.Development: blog1" />
       <item itemvalue="Rails.Development: cv_olegchornyi" />
       <item itemvalue="Rails.Production: blog" />
-      <item itemvalue="Rails.Production: blog1" />
       <item itemvalue="Rails.Production: cv_olegchornyi" />
       <item itemvalue="Rake.spec: blog" />
       <item itemvalue="Rake.spec: blog1" />
@@ -473,7 +631,13 @@
       <item itemvalue="Rake.test: blog" />
       <item itemvalue="Rake.test: blog1" />
       <item itemvalue="Rake.test: cv_olegchornyi" />
+      <item itemvalue="Rake.test: blog2" />
+      <item itemvalue="Rake.spec: blog2" />
       <item itemvalue="Rake.db:migrate" />
+      <item itemvalue="Rake.test: blog3" />
+      <item itemvalue="Rake.spec: blog3" />
+      <item itemvalue="Rails.Production: blog2" />
+      <item itemvalue="Rails.Development: blog2" />
     </list>
     <recent_temporary>
       <list>
@@ -495,7 +659,13 @@
       <workItem from="1642019501042" duration="1758000" />
       <workItem from="1642251038320" duration="608000" />
       <workItem from="1642351089098" duration="2622000" />
-      <workItem from="1642354388808" duration="8126000" />
+      <workItem from="1642354388808" duration="29070000" />
+      <workItem from="1642484234586" duration="3785000" />
+      <workItem from="1642560109669" duration="11859000" />
+      <workItem from="1642608205572" duration="591000" />
+      <workItem from="1642646556288" duration="1557000" />
+      <workItem from="1642860788727" duration="75000" />
+      <workItem from="1642867006161" duration="20347000" />
     </task>
     <servers />
   </component>
@@ -517,8 +687,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RubyHW@Development__blog1.rcov" NAME="Development: blog1 Coverage Results" MODIFIED="1642357572624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8/blog" MODULE_NAME="blog1" />
-    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1642364753017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog3.rcov" NAME="Development: blog3 Coverage Results" MODIFIED="1642867371366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8_blog_with_comments/blog" MODULE_NAME="blog3" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog2.rcov" NAME="Development: blog2 Coverage Results" MODIFIED="1642887241519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8_blog_with_comments/blog" MODULE_NAME="blog2" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog1.rcov" NAME="Development: blog1 Coverage Results" MODIFIED="1642485145048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8/blog" MODULE_NAME="blog1" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1642884833617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
     <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1642363121733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
   </component>
 </project>
