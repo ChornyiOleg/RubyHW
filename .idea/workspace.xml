@@ -4,7 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d500be42-8ca2-405f-88e0-fd59faabea46" name="Changes" comment="changes HW8" />
+    <list default="true" id="d500be42-8ca2-405f-88e0-fd59faabea46" name="Changes" comment="changes HW8">
+      <change afterPath="$PROJECT_DIR$/HW8/blog/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/helpers/comments_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/views/comments/_comment.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/app/views/comments/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118095215_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118095935_add_post_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118100101_add_author_reference_to_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118100328_add_comments_counter_cache_to_posts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118152228_create_views.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8/blog/db/migrate/20220118152341_add_views_count_to_posts.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/blog1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/blog1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/HW8_blog_with_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_development.HsjP9Q/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/blog_test.D0M5Og/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/dataSources/09f2e7e2-c8d0-47a3-ab4f-f4a5b49e62d2/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/models/author.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/_post.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/_post.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/app/views/posts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8/blog/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/HW8/blog/db/schema.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +77,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -556,6 +622,7 @@
       <workItem from="1642860788727" duration="75000" />
       <workItem from="1642867006161" duration="20347000" />
       <workItem from="1643113685214" duration="1133000" />
+      <workItem from="1643115411715" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="changes HW8">
       <created>1643114758518</created>
