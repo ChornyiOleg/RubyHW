@@ -5,7 +5,7 @@
       <configuration>
         <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
         <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
-        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
       </configuration>
     </facet>
   </component>
@@ -18,15 +18,15 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/public/packs" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
       <excludeFolder url="file://$MODULE_DIR$/log" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
       <excludeFolder url="file://$MODULE_DIR$/components" />
+      <excludeFolder url="file://$MODULE_DIR$/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/public/packs" />
     </content>
-    <orderEntry type="jdk" jdkName="ruby-3.0.3-p157" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="actioncable (vbundled(6.1.4.4)) [path][gem]" type="rubylib">
@@ -399,21 +399,39 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="faker (vbundled(1.9.6)) [path][gem]" type="rubylib">
+      <library name="faker (vbundled(2.19.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/faker-1.9.6/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/faker-1.9.6/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/doc" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.git" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/tasks" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/script" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.github" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/faker-1.9.6/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/faker-1.9.6/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/doc" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.git" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/tasks" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/script" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.github" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/faker-1.9.6/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/doc" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.git" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/tasks" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/script" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/bundler/gems/faker-9e7b7094f673/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -604,6 +622,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="mini_portile2 (vbundled(2.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/mini_portile2-2.7.1/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="minitest (vbundled(5.15.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -682,27 +722,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nokogiri (vbundled(1.12.5)) [path][gem]" type="rubylib">
+      <library name="nokogiri (vbundled(1.13.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/ext" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/gumbo-parser" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/gumbo-parser" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/ext" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/gumbo-parser" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/gumbo-parser" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/ext" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.12.5-x86_64-linux/gumbo-parser" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/nokogiri-1.13.0-x86_64-linux/gumbo-parser" />
         </excluded>
       </library>
     </orderEntry>
@@ -840,21 +880,21 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rack-proxy (vbundled(0.7.0)) [path][gem]" type="rubylib">
+      <library name="rack-proxy (vbundled(0.7.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.0/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.0/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.2/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.2/test" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.0/lib" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.0/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.2/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.2/test" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.0/test" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/rack-proxy-0.7.2/test" />
         </excluded>
       </library>
     </orderEntry>
@@ -1127,21 +1167,21 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="thor (vbundled(1.1.0)) [path][gem]" type="rubylib">
+      <library name="thor (vbundled(1.2.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.1.0/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.1.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.2.1/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.2.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.1.0/bin" />
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.1.0/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.2.1/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.2.1/lib" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.1.0/bin" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/thor-1.2.1/bin" />
         </excluded>
       </library>
     </orderEntry>
@@ -1298,6 +1338,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.4, RVM: ruby-3.0.3) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

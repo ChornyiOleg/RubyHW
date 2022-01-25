@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_25_01_22,_14_11_[Changes]" date="1643112689917" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_01_22,_14_11_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 25.01.22, 14:11 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="HW8_blog_with_comments/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/blog" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_01_22,_14_11_[Changes]/blog" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="HW8_blog_with_comments/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_01_22,_13_52_[Changes]/blog" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_01_22,_14_11_[Changes]/blog1" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="HW8_blog_with_comments/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/blog" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_01_22,_14_11_[Changes]/blog2" />
+  </binary>
+</changelist>
