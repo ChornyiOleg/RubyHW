@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d500be42-8ca2-405f-88e0-fd59faabea46" name="Changes" comment="changes HW8">
-      <change beforePath="$PROJECT_DIR$/HW8Comments/blog/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW8Comments/blog/README.md" afterDir="false" />
+    <list default="true" id="d500be42-8ca2-405f-88e0-fd59faabea46" name="Changes" comment="Heroku link">
+      <change afterPath="$PROJECT_DIR$/HW9Registration/blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/blog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +46,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/EVERLABS/Homework8/HW8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,7 +92,7 @@
       <module name="blog2" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW9Registration/blog" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3 [global]" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -163,7 +167,7 @@
       <module name="blog2" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW9Registration/blog" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-3.0.3 [global]" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -309,7 +313,7 @@
     <configuration name="spec: blog2" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="blog2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW9Registration/blog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -435,7 +439,7 @@
     <configuration name="test: blog2" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="blog2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW8_blog_with_comments/blog" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../HW9Registration/blog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -561,6 +565,14 @@
       <workItem from="1642867006161" duration="20347000" />
       <workItem from="1643113685214" duration="1133000" />
       <workItem from="1643115411715" duration="374000" />
+      <workItem from="1643185394539" duration="1191000" />
+      <workItem from="1643207636204" duration="588000" />
+      <workItem from="1643213031758" duration="592000" />
+      <workItem from="1643279464580" duration="324000" />
+      <workItem from="1643281313232" duration="495000" />
+      <workItem from="1643291007575" duration="2000" />
+      <workItem from="1643317591120" duration="595000" />
+      <workItem from="1643470827731" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="changes HW8">
       <created>1643114758518</created>
@@ -569,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643114758518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Heroku link">
+      <created>1643121273251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643121273252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,16 +610,19 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/HW Comments/blog" />
       <path value="$PROJECT_DIR$/HW8_blog_with_comments/blog" />
+      <path value="$PROJECT_DIR$/HW8/blog" />
     </ignored-roots>
     <MESSAGE value="changes" />
     <MESSAGE value="changes HW8" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes HW8" />
+    <MESSAGE value="Heroku link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heroku link" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyHW@Development__blog3.rcov" NAME="Development: blog3 Coverage Results" MODIFIED="1642867371366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8_blog_with_comments/blog" MODULE_NAME="blog3" />
     <SUITE FILE_PATH="coverage/RubyHW@Development__blog2.rcov" NAME="Development: blog2 Coverage Results" MODIFIED="1642887241519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8_blog_with_comments/blog" MODULE_NAME="blog2" />
+    <SUITE FILE_PATH="coverage/RubyHW@Production__blog2.rcov" NAME="Production: blog2 Coverage Results" MODIFIED="1643471354128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW9Registration/blog" MODULE_NAME="blog2" />
     <SUITE FILE_PATH="coverage/RubyHW@Development__blog1.rcov" NAME="Development: blog1 Coverage Results" MODIFIED="1642485145048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8/blog" MODULE_NAME="blog1" />
-    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1643119895891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
+    <SUITE FILE_PATH="coverage/RubyHW@Development__blog.rcov" NAME="Development: blog Coverage Results" MODIFIED="1643471441636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7/blog" MODULE_NAME="blog" />
     <SUITE FILE_PATH="coverage/RubyHW@Development__cv_olegchornyi.rcov" NAME="Development: cv_olegchornyi Coverage Results" MODIFIED="1642363121733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6/cv_olegchornyi" MODULE_NAME="cv_olegchornyi" />
   </component>
 </project>

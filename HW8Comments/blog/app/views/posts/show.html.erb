@@ -17,17 +17,48 @@
 </p>
 
 <p class="text-center mb-3">
-  <%= image_tag(@post.image, width: "600", alt: "Post image", class: "img-fluid py-4") if @post.image.present? %>
+  <%= image_tag(@post.image, width: "500", alt: "Post image", class: "img-fluid py-4") if @post.image.present? %>
 </p>
 
 <p class="text-center mb-3">
   <strong>Content:</strong>
   <%= @post.content %>
 </p>
+  <hr>
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <h5>This post has been updated <%= distance_of_time_in_words(Time.now, @post.updated_at) %> ago.</h5>
+  </div>
 
   <div class="d-flex justify-content-center d-flex align-items-center">
-    <%= link_to 'Edit', edit_post_path(@post), class: "btn btn-secondary btn-lg" %> |
+    <strong>Views:</strong>&nbsp;
+    <%= @post.views_count %>
+  </div>
+
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <strong> Total: </strong>&nbsp;
+   <%= @post.comments_count || 0 %> <%= @post.comments_count != 1 ? ' comments' : ' comment' %>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <%= link_to 'Edit', edit_post_path(@post), class: "btn btn-secondary btn-lg" %> &nbsp;|&nbsp;
     <%= link_to 'Back', posts_path, class: "btn btn-secondary btn-lg" %>
   </div>
  <hr>
+
+  <p><strong>Comments:</strong></p>
+   <hr>
+  <div>
+    <%= render @post.comments.unpublished %>
+   </div>
+
+  <div>
+    <%= render @post.comments.published %>
+  </div>
+
+  <div>
+  <%= render 'comments/form', locals: { post: @post } %>
+ </div>
+
+  <hr>
+
 </div>
