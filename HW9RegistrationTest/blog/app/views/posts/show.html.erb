@@ -1,0 +1,90 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<p class="text-center mb-3">
+  <%= image_tag @post.author.avatar.variant(resize_to_limit: [100, 100]) if @post.author.avatar.present? %>
+  <strong>Author:</strong>
+  <%= @post.author.full_name %>
+</p>
+
+<p class="text-center mb-3">
+  <strong>Author ID:</strong>
+  <%= @post.author_id %>
+</p>
+
+<p class="text-center mb-3">
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p class="text-center mb-3">
+  <%= image_tag(@post.image, width: "500", alt: "Post image", class: "img-fluid py-4") if @post.image.present? %>
+</p>
+
+<p class="text-center mb-3">
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+  <hr>
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <h5>This post has been updated <%= distance_of_time_in_words(Time.now, @post.updated_at) %> ago.</h5>
+  </div>
+
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <strong>Views:</strong>&nbsp;
+    <%= @post.views_count %>
+  </div>
+
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <strong> Total: </strong>&nbsp;
+   <%= @post.comments_count || 0 %> <%= @post.comments_count != 1 ? ' comments' : ' comment' %>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <% if @post.author == current_author %>
+      <%= link_to 'Edit', edit_post_path(@post), class: "btn btn-secondary btn-lg" %>
+    <% else %>
+      <div class="d-inline-block"
+           tabindex="0"
+           title="You are not the author of the post">
+        <%= link_to 'Edit', edit_post_path(@post),
+                    class: "btn btn-secondary disabled",
+                    id: "btn-disabled" %>
+      </div>
+    <% end %>
+      &nbsp;|&nbsp;
+    <%= link_to 'Back', posts_path, class: "btn btn-secondary btn-lg" %>
+  </div>
+ <hr>
+
+  <div class="comments my-5">
+    <h5 class="py-5 text-center">Comments</h5>
+    <hr>
+
+    <div class="text-right pb-4 ">
+      <%= form_with(model: @comment, scope: :status, url: @post) do |form| %>
+
+        <div class="field btn btn-primary comment-statuses">
+          <%= form.select :status, Comment.statuses { |a| a }, selected: params[:status] == {"status"=>"0"} ? 0 : 1, class: "btn btn-primary" %>
+        </div>
+        <div class="actions">
+          <%= form.submit 'Show comments', class: "btn btn-secondary" %>
+        </div>
+      <% end %>
+    </div>
+  <hr>
+    <div class="new-comment" id="new-comment">
+      <%= nested_comments @post.comments.arrange %>
+    </div>
+  <hr>
+  </div>
+  <h5 class="mt-5"> Add a new comment:</h5>
+  <% if current_author %>
+    <div id="comment-reply-root">
+      <%= render 'comments/form', comment_id: nil %>
+    </div>
+    <hr>
+  <% else %>
+    <p class="py-4">Please register in the system</p>
+  <% end %>
+</div>

@@ -1,0 +1,11 @@
+<div class="container">
+  <h1 class="mt-3 text-center">Editing Post</h1>
+
+  <%= render 'form', post: @post %>
+
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <%= link_to 'Show', @post, class: "btn btn-secondary my-3 btn-lg" %> &nbsp;|&nbsp;
+    <%= link_to 'Back', posts_path, class: "btn btn-secondary my-3 btn-lg" %>
+  </div>
+
+</div>

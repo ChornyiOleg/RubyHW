@@ -1,0 +1,66 @@
+ <div class="container">
+   <p id="notice" class="text-center my-3 fs-3 text-secondary" id="notice"><%= notice %></p>
+
+     <h1 class="container text-center p-3 mb-2 bg-light text-dark">Posts</h1>
+
+      <% if @posts.empty? %>
+        <div class="text-center">
+          <h2>The posts list is empty at the moment...</h2>
+        </div>
+     <hr>
+      <% else %>
+
+     <div class="table-responsive">
+      <table class="table table-striped table-hover table-sm align-middle">
+        <thead class="container text-center">
+          <tr>
+            <th>Author</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Image</th>
+            <th>Views Count</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody class="container">
+
+          <% @posts.each do |post| %>
+            <tr class="container text-center">
+              <td><%= image_tag post.author.avatar.variant(resize_to_limit: [45, 45]) if post.author.avatar.present? %><%= post.author.full_name %></td>
+              <td><%= post.title %></td>
+              <td class="text-start"><%= post.content %></td>
+              <td><%= image_tag(post.image, width: '200', class: "mx-auto d-block") %></td>
+              <td><%= post.views_count %></td>
+              <td>
+                <div class="d-flex p-2 bd-highlight mb-3 align-items-center">
+                <%= link_to 'Show', post, class: "btn btn-success" %> |
+                <% if post.author == current_author %>
+                  <%= link_to 'Edit', edit_post_path(post), class: "btn btn-secondary" %> |
+                  <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure you want to delete the post?' }, class: "btn btn-danger" %>
+                <% else %>
+                    <div class="btn-group"
+                       tabindex="0"
+                       title="Only the author of the post can edit and delete">
+                    <%= link_to 'Edit', home_path, class: "btn btn-secondary disabled" %>
+                    <%= link_to 'Delete', home_path, class: "btn btn-dark disabled" %><br/>
+                    </div>
+                <% end %>
+                <% end %>
+                </div>
+              </td>
+            </tr>
+         </tbody>
+    </table>
+  </div>
+  <% end %>
+ </div>
+
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <%= link_to 'New Post', new_post_path, class: "btn btn-success btn-lg" if current_author %>
+  </div>
+ <hr>
+  <div class="d-flex justify-content-center d-flex align-items-center">
+    <%= render 'posts/pagination', locals: { pagy: @pagy } %>
+  </div>
+ <%= render 'layouts/sign_in_modal' %>

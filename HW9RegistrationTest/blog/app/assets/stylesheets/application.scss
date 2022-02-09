@@ -1,0 +1,68 @@
+
+// = require actiontext
+// = require comments
+
+@import "bootstrap/scss/bootstrap";
+
+
+body {
+  background-color: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.register-wrap {
+  height: calc(100vh - 100px);
+}
+
+.register-card {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 1rem;
+  transform: scale(1);
+  box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+  }
+
+.register-form-group {
+  input {
+    border: none;
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+  &-item {
+    position: relative;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 35px;
+  }
+  label {
+    color: #fff;
+    background: #198754;
+    border: 2px solid;
+    padding: 0 5px;
+    border-radius: 5px;
+    position:absolute;
+    top: -20px;
+    left: 15px;
+  }
+}
+
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.arrow{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.comment-statuses {
+  margin-bottom: 10px;
+}

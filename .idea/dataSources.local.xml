@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="RM-213.6461.75">
+  <component name="dataSourceStorageLocal" created-in="RM-213.6777.43">
     <data-source name="postgres@localhost" uuid="a3124cbd-4403-43cc-b955-d350839668e1">
       <database-info product="PostgreSQL" version="12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.22" dbms="POSTGRES" exact-version="12.9" exact-driver-version="42.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -96,6 +96,29 @@
     </data-source>
     <data-source name="Rails blog2: test" uuid="2fc97e0d-c231-41d7-9e64-ebe12f0465bf">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails blog3: development" uuid="f38f60dc-9ed4-4fa3-8471-a1ff61965528">
+      <database-info product="PostgreSQL" version="12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.22" dbms="POSTGRES" exact-version="12.9" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="Rails blog3: test" uuid="9d2d5776-9df1-487f-9c63-273df8c85e27">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="Rails blog3: production" uuid="926cdd32-adb0-4701-a50a-83f00cf63b04">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>blog</user-name>
       <schema-mapping />
     </data-source>
   </component>

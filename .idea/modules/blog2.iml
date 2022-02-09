@@ -9,6 +9,9 @@
       </configuration>
     </facet>
   </component>
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../HW9Registration/blog">
       <sourceFolder url="file://$MODULE_DIR$/../../HW9Registration/blog/features" isTestSource="true" />
@@ -216,6 +219,28 @@
           <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/autoprefixer-rails-10.4.0.0/lib" />
           <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/autoprefixer-rails-10.4.0.0/vendor" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcrypt (vbundled(3.1.16)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/lib" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
+          <root url="file://$USER_HOME$/.gem/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
